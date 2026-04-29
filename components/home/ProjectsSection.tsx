@@ -3,34 +3,34 @@ import SectionTitle from '@/components/ui/SectionTitle';
 
 const projects = [
   {
-    src: 'https://kurty.kz/assets/cache_image/media/primery/plita/IMAG1145_620x460_e66.jpg',
-    alt: 'Реализованный объект — гранитная плитка',
+    src: 'https://kurty.kz/assets/cache_image/media/gallery/DSCN0027_2000x2000_629.jpg',
+    alt: 'Манежная площадь, Москва',
+    caption: 'Манежная площадь, Москва',
+  },
+  {
+    src: 'https://kurty.kz/assets/cache_image/media/gallery/IMG_0148_2000x2000_629.jpg',
+    alt: 'Площадь Республики, Алматы',
     caption: 'Площадь Республики, Алматы',
   },
   {
-    src: 'https://kurty.kz/assets/cache_image/media/primery/plita/IMAG1155_620x460_e66.jpg',
-    alt: 'Реализованный объект — гранитное мощение',
-    caption: 'Благоустройство набережной',
+    src: 'https://kurty.kz/assets/cache_image/media/gallery/DSC_0508_2000x2000_629.jpg',
+    alt: 'Памятник, Астана',
+    caption: 'Памятник, Астана',
   },
   {
-    src: 'https://kurty.kz/assets/cache_image/media/primery/plita/IMG_2791_620x460_e66.jpg',
-    alt: 'Реализованный объект — гранитная облицовка',
-    caption: 'Фасад административного здания',
+    src: 'https://kurty.kz/assets/cache_image/media/gallery/IMG_4007_2000x2000_629.jpg',
+    alt: 'Памятник, Талдыкорган',
+    caption: 'Памятник, Талдыкорган',
   },
   {
-    src: 'https://kurty.kz/assets/cache_image/media/primery/plita/IMAG1144_620x460_e66.jpg',
-    alt: 'Реализованный объект — гранитные ступени',
-    caption: 'Парковая зона, Астана',
+    src: 'https://kurty.kz/assets/cache_image/media/gallery/5_office4_2000x2000_629.jpg',
+    alt: 'Офисное здание, Алматы',
+    caption: 'Офисное здание, Алматы',
   },
   {
-    src: 'https://kurty.kz/assets/cache_image/media/primery/plita/IMG_3359_620x460_e66.jpg',
-    alt: 'Реализованный объект — городское благоустройство',
-    caption: 'Пешеходная зона, Москва',
-  },
-  {
-    src: 'https://kurty.kz/assets/cache_image/media/primery/plita/IMG_3379_620x460_e66.jpg',
-    alt: 'Реализованный объект — гранитная плита',
-    caption: 'Площадь перед ТРЦ',
+    src: 'https://kurty.kz/media/gallery/new_square.jpg',
+    alt: 'Площадь Республики, Алматы',
+    caption: 'Площадь Республики, Алматы',
   },
 ];
 

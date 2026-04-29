@@ -11,32 +11,40 @@ export const metadata: Metadata = {
 
 const projects = [
   {
-    src: 'https://kurty.kz/assets/cache_image/media/primery/plita/IMAG1145_620x460_e66.jpg',
+    src: 'https://kurty.kz/assets/cache_image/media/gallery/DSCN0027_2000x2000_629.jpg',
+    label: 'Манежная площадь, Москва',
+  },
+  {
+    src: 'https://kurty.kz/media/gallery/IMG_4620.JPG',
+    label: 'Манежная площадь, Москва',
+  },
+  {
+    src: 'https://kurty.kz/media/gallery/IMG_4597.JPG',
+    label: 'Манежная площадь, Москва',
+  },
+  {
+    src: 'https://kurty.kz/assets/cache_image/media/gallery/IMG_0148_2000x2000_629.jpg',
     label: 'Площадь Республики, Алматы',
   },
   {
-    src: 'https://kurty.kz/assets/cache_image/media/primery/plita/IMAG1155_620x460_e66.jpg',
-    label: 'Сквер, Алматы',
+    src: 'https://kurty.kz/media/gallery/new_square.jpg',
+    label: 'Площадь Республики, Алматы',
   },
   {
-    src: 'https://kurty.kz/assets/cache_image/media/primery/plita/IMG_2791_620x460_e66.jpg',
-    label: 'Торговый центр, Казахстан',
+    src: 'https://kurty.kz/assets/cache_image/media/gallery/DSC_0508_2000x2000_629.jpg',
+    label: 'Памятник сотрудникам МВД, Астана',
   },
   {
-    src: 'https://kurty.kz/assets/cache_image/media/primery/plita/IMAG1144_620x460_e66.jpg',
-    label: 'Жилой комплекс, Алматы',
+    src: 'https://kurty.kz/assets/cache_image/media/gallery/IMG_4007_2000x2000_629.jpg',
+    label: 'Памятник, Талдыкорган',
   },
   {
-    src: 'https://kurty.kz/assets/cache_image/media/primery/plita/IMG_3359_620x460_e66.jpg',
-    label: 'Набережная, Казахстан',
+    src: 'https://kurty.kz/assets/cache_image/media/gallery/5_office4_2000x2000_629.jpg',
+    label: 'Офисное здание, Алматы',
   },
   {
-    src: 'https://kurty.kz/assets/cache_image/media/primery/plita/IMG_3379_620x460_e66.jpg',
-    label: 'Городская площадь',
-  },
-  {
-    src: 'https://kurty.kz/assets/cache_image/media/primery/plita/IMG_3380_620x460_e66.jpg',
-    label: 'Благоустройство территории',
+    src: 'https://kurty.kz/media/gallery/IMG_4629.JPG',
+    label: 'Манежная площадь, Москва',
   },
 ];
 

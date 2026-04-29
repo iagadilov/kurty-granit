@@ -88,10 +88,10 @@ export default function ContactsPage() {
                   <dt className="text-xs uppercase tracking-wider text-stone-500">Телефон</dt>
                   <dd className="mt-0.5">
                     <a
-                      href="tel:+79250023685"
+                      href="tel:+77710111118"
                       className="text-accent transition-colors hover:text-accent-dark"
                     >
-                      +7 (925) 002-36-85
+                      +7 (771) 011-11-18
                     </a>
                   </dd>
                 </div>
