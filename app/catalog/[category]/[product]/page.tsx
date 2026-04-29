@@ -72,7 +72,7 @@ export default async function ProductPage({ params }: PageProps) {
                         <td className="px-4 py-2.5 text-stone-400 font-medium w-1/2">
                           {spec.label}
                         </td>
-                        <td className="px-4 py-2.5 text-stone-100">{spec.value}</td>
+                        <td className="px-4 py-2.5 text-stone-50 font-medium">{spec.value}</td>
                       </tr>
                     ))}
                   </tbody>
@@ -91,8 +91,8 @@ export default async function ProductPage({ params }: PageProps) {
             {/* Contact info */}
             <div className="flex flex-col gap-2 text-sm text-stone-400">
               <a
-                href="tel:+77071234567"
-                className="flex items-center gap-2 transition-colors hover:text-stone-200"
+                href="tel:+77710111118"
+                className="flex items-center gap-2 transition-colors hover:text-stone-50"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -108,13 +108,13 @@ export default async function ProductPage({ params }: PageProps) {
                 >
                   <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                 </svg>
-                +7 707 123-45-67
+                +7 (771) 011-11-18
               </a>
               <a
-                href="https://wa.me/77071234567"
+                href="https://wa.me/77717487905"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 transition-colors hover:text-stone-200"
+                className="flex items-center gap-2 transition-colors hover:text-stone-50"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

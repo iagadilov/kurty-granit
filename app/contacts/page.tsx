@@ -32,11 +32,11 @@ export default function ContactsPage() {
               <dl className="space-y-3 text-sm">
                 <div>
                   <dt className="text-xs uppercase tracking-wider text-stone-500">Организация</dt>
-                  <dd className="mt-0.5 text-stone-300">{company.fullName}</dd>
+                  <dd className="mt-0.5 text-stone-400">{company.fullName}</dd>
                 </div>
                 <div>
                   <dt className="text-xs uppercase tracking-wider text-stone-500">Адрес</dt>
-                  <dd className="mt-0.5 text-stone-300">
+                  <dd className="mt-0.5 text-stone-400">
                     040613, Республика Казахстан, {company.address.kz}
                   </dd>
                 </div>
@@ -64,7 +64,7 @@ export default function ContactsPage() {
                 </div>
                 <div>
                   <dt className="text-xs uppercase tracking-wider text-stone-500">Самовывоз</dt>
-                  <dd className="mt-0.5 text-stone-300">{company.address.factory}</dd>
+                  <dd className="mt-0.5 text-stone-400">{company.address.factory}</dd>
                 </div>
               </dl>
             </div>
@@ -78,11 +78,11 @@ export default function ContactsPage() {
               <dl className="space-y-3 text-sm">
                 <div>
                   <dt className="text-xs uppercase tracking-wider text-stone-500">Организация</dt>
-                  <dd className="mt-0.5 text-stone-300">{company.fullName}</dd>
+                  <dd className="mt-0.5 text-stone-400">{company.fullName}</dd>
                 </div>
                 <div>
                   <dt className="text-xs uppercase tracking-wider text-stone-500">Адрес</dt>
-                  <dd className="mt-0.5 text-stone-300">{company.address.ru}</dd>
+                  <dd className="mt-0.5 text-stone-400">{company.address.ru}</dd>
                 </div>
                 <div>
                   <dt className="text-xs uppercase tracking-wider text-stone-500">Телефон</dt>

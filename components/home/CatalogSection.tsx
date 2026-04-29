@@ -33,13 +33,13 @@ export default function CatalogSection() {
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   className="transition-transform duration-500 group-hover:scale-105"
                 />
-                {/* Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent transition-opacity duration-300 group-hover:opacity-90" />
+                {/* Dark overlay for text readability */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/30 to-transparent transition-opacity duration-300 group-hover:opacity-90" />
 
                 {/* Category name */}
                 <div className="absolute bottom-0 left-0 right-0 p-5">
-                  <h3 className="text-xl font-bold text-stone-50">{category.name}</h3>
-                  <p className="mt-1 text-sm text-stone-300 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                  <h3 className="text-xl font-bold text-white">{category.name}</h3>
+                  <p className="mt-1 text-sm text-white/80 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                     {category.description}
                   </p>
                 </div>

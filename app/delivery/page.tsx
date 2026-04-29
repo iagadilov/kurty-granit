@@ -198,10 +198,10 @@ export default function DeliveryPage() {
                     className={i % 2 === 0 ? 'bg-stone-900' : 'bg-stone-950'}
                   >
                     <td className="px-4 py-3 font-medium text-stone-50">{row.type}</td>
-                    <td className="px-4 py-3 text-stone-300">{row.size}</td>
-                    <td className="px-4 py-3 text-right text-stone-300">{row.weight}</td>
-                    <td className="px-4 py-3 text-right text-stone-300">{row.wagon}</td>
-                    <td className="px-4 py-3 text-right text-stone-300">{row.truck}</td>
+                    <td className="px-4 py-3 text-stone-400">{row.size}</td>
+                    <td className="px-4 py-3 text-right text-stone-400">{row.weight}</td>
+                    <td className="px-4 py-3 text-right text-stone-400">{row.wagon}</td>
+                    <td className="px-4 py-3 text-right text-stone-400">{row.truck}</td>
                   </tr>
                 ))}
               </tbody>
@@ -230,9 +230,9 @@ export default function DeliveryPage() {
                     className={i % 2 === 0 ? 'bg-stone-900' : 'bg-stone-950'}
                   >
                     <td className="px-4 py-3 font-medium text-stone-50">{row.thickness}</td>
-                    <td className="px-4 py-3 text-right text-stone-300">{row.wagon}</td>
-                    <td className="px-4 py-3 text-right text-stone-300">{row.truck}</td>
-                    <td className="px-4 py-3 text-right text-stone-300">{row.weight}</td>
+                    <td className="px-4 py-3 text-right text-stone-400">{row.wagon}</td>
+                    <td className="px-4 py-3 text-right text-stone-400">{row.truck}</td>
+                    <td className="px-4 py-3 text-right text-stone-400">{row.weight}</td>
                   </tr>
                 ))}
               </tbody>
@@ -249,15 +249,15 @@ export default function DeliveryPage() {
               <dl className="space-y-1.5 text-sm">
                 <div className="flex justify-between">
                   <dt className="text-stone-400">Размеры</dt>
-                  <dd className="text-stone-200">65×105×125 см</dd>
+                  <dd className="text-stone-50">65×105×125 см</dd>
                 </div>
                 <div className="flex justify-between">
                   <dt className="text-stone-400">Площадь плиты</dt>
-                  <dd className="text-stone-200">32,4 м²</dd>
+                  <dd className="text-stone-50">32,4 м²</dd>
                 </div>
                 <div className="flex justify-between">
                   <dt className="text-stone-400">Вес</dt>
-                  <dd className="text-stone-200">1 650 кг</dd>
+                  <dd className="text-stone-50">1 650 кг</dd>
                 </div>
               </dl>
             </div>
@@ -266,15 +266,15 @@ export default function DeliveryPage() {
               <dl className="space-y-1.5 text-sm">
                 <div className="flex justify-between">
                   <dt className="text-stone-400">Размеры</dt>
-                  <dd className="text-stone-200">65×65×110 см</dd>
+                  <dd className="text-stone-50">65×65×110 см</dd>
                 </div>
                 <div className="flex justify-between">
                   <dt className="text-stone-400">Площадь плиты</dt>
-                  <dd className="text-stone-200">22,32 м²</dd>
+                  <dd className="text-stone-50">22,32 м²</dd>
                 </div>
                 <div className="flex justify-between">
                   <dt className="text-stone-400">Вес</dt>
-                  <dd className="text-stone-200">1 200 кг</dd>
+                  <dd className="text-stone-50">1 200 кг</dd>
                 </div>
               </dl>
             </div>

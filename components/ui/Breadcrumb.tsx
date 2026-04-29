@@ -66,7 +66,7 @@ export default function Breadcrumb({ items }: BreadcrumbProps) {
                 {item.label}
               </Link>
             ) : (
-              <span className="text-stone-200">{item.label}</span>
+              <span className="text-stone-50">{item.label}</span>
             )}
           </li>
         ))}

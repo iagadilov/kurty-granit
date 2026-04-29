@@ -75,7 +75,7 @@ export default function ProjectsPage() {
               </div>
               {/* Always visible label at bottom */}
               <div className="bg-stone-900 px-4 py-2.5">
-                <p className="text-sm text-stone-300">{project.label}</p>
+                <p className="text-sm text-stone-400">{project.label}</p>
               </div>
             </div>
           ))}

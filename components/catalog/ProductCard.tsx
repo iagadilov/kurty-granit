@@ -44,7 +44,7 @@ export default function ProductCard({ product }: ProductCardProps) {
             {keySpecs.map((spec) => (
               <div key={spec.label} className="flex items-baseline gap-1 text-sm">
                 <dt className="text-stone-400">{spec.label}:</dt>
-                <dd className="text-stone-200">{spec.value}</dd>
+                <dd className="text-stone-50 font-medium">{spec.value}</dd>
               </div>
             ))}
           </dl>

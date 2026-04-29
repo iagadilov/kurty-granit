@@ -53,18 +53,18 @@ export default function AboutPage() {
         {/* Hero text */}
         <section className="mb-16">
           <div className="rounded-lg bg-stone-900 border border-stone-800 p-8">
-            <p className="leading-relaxed text-stone-300">
+            <p className="leading-relaxed text-stone-400">
               Завод по обработке камня «Курты» занимается добычей и реализацией гранитных блоков Куртинского
               месторождения. Компании принадлежит 10 квадратных километров площади разведанного гранитного массива,
               на котором детально разведано часть участков с утверждёнными запасами более 10 млн кубических метров
               гранита.
             </p>
-            <p className="mt-4 leading-relaxed text-stone-300">
+            <p className="mt-4 leading-relaxed text-stone-400">
               Месторождение разрабатывается с 1972 года. За это время накоплен огромный опыт в добыче и обработке
               камня. Предприятие оснащено современным оборудованием и производит гранитные изделия в соответствии
               с ГОСТ 9479-2011.
             </p>
-            <p className="mt-4 leading-relaxed text-stone-300">
+            <p className="mt-4 leading-relaxed text-stone-400">
               Завод выпускает гранитные плиты, брусчатку, бордюрный камень, облицовочные изделия и блоки.
               Продукция поставляется в Казахстан, Россию и страны ближнего зарубежья. Прямые отгрузки
               осуществляются с производственной базы на станции Казыбек Бек, Алматинская область.
@@ -83,7 +83,7 @@ export default function AboutPage() {
               >
                 <div className="text-3xl font-bold text-accent">{stat.value}</div>
                 <div className="mt-1 text-sm text-stone-400">{stat.unit}</div>
-                <div className="mt-2 text-sm font-medium text-stone-200">{stat.label}</div>
+                <div className="mt-2 text-sm font-medium text-stone-50">{stat.label}</div>
               </div>
             ))}
           </div>
@@ -120,7 +120,7 @@ export default function AboutPage() {
               <tbody>
                 {mineralComposition.map((row, i) => (
                   <tr key={row.component} className={i % 2 === 0 ? 'bg-stone-900' : 'bg-stone-950'}>
-                    <td className="px-4 py-3 text-stone-300">{row.component}</td>
+                    <td className="px-4 py-3 text-stone-400">{row.component}</td>
                     <td className="px-4 py-3 text-right font-medium text-stone-50">{row.value}</td>
                   </tr>
                 ))}
@@ -143,7 +143,7 @@ export default function AboutPage() {
               <tbody>
                 {technicalSpecs.map((row, i) => (
                   <tr key={row.indicator} className={i % 2 === 0 ? 'bg-stone-900' : 'bg-stone-950'}>
-                    <td className="px-4 py-3 text-stone-300">{row.indicator}</td>
+                    <td className="px-4 py-3 text-stone-400">{row.indicator}</td>
                     <td className="px-4 py-3 text-right font-medium text-stone-50">{row.value}</td>
                   </tr>
                 ))}
@@ -156,7 +156,7 @@ export default function AboutPage() {
         <section className="mb-16">
           <div className="rounded-lg border border-accent/30 bg-stone-900 p-6">
             <h3 className="mb-2 font-semibold text-accent">Радиационный класс</h3>
-            <p className="text-sm text-stone-300">
+            <p className="text-sm text-stone-400">
               Гранит куртинского месторождения относится к 1 классу радиационной опасности и может
               использоваться без ограничений в любом виде строительства.
             </p>
@@ -171,7 +171,7 @@ export default function AboutPage() {
               <div className="mb-3 text-xs font-semibold uppercase tracking-wider text-accent">
                 1 очередь · 2023–2024
               </div>
-              <ul className="space-y-1.5 text-sm text-stone-300">
+              <ul className="space-y-1.5 text-sm text-stone-400">
                 <li>Производство плит: 4 000 м²/день</li>
                 <li>Брусчатка: 4 000 м²/день</li>
                 <li>Бордюр: 2 км/день</li>
@@ -181,7 +181,7 @@ export default function AboutPage() {
               <div className="mb-3 text-xs font-semibold uppercase tracking-wider text-accent">
                 2 очередь · 2024–2026
               </div>
-              <ul className="space-y-1.5 text-sm text-stone-300">
+              <ul className="space-y-1.5 text-sm text-stone-400">
                 <li>Производство плит: 5 000 м²/день</li>
                 <li>Расширение парка оборудования</li>
               </ul>
@@ -190,7 +190,7 @@ export default function AboutPage() {
               <div className="mb-3 text-xs font-semibold uppercase tracking-wider text-accent">
                 3 очередь
               </div>
-              <ul className="space-y-1.5 text-sm text-stone-300">
+              <ul className="space-y-1.5 text-sm text-stone-400">
                 <li>Колонны и пилястры</li>
                 <li>Балясины</li>
                 <li>Памятники</li>

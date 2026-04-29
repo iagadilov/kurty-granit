@@ -61,8 +61,8 @@ export default function ProjectsSection() {
                   className="transition-transform duration-500 group-hover:scale-105"
                 />
                 {/* Caption overlay */}
-                <div className="absolute inset-0 flex items-end bg-gradient-to-t from-black/70 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                  <p className="px-4 pb-4 text-sm font-medium text-stone-50">
+                <div className="absolute inset-0 flex items-end bg-gradient-to-t from-black/75 via-black/30 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                  <p className="px-4 pb-4 text-sm font-medium text-white">
                     {project.caption}
                   </p>
                 </div>
