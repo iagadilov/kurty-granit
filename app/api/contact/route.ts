@@ -1,8 +1,6 @@
 import { Resend } from 'resend'
 import { NextResponse } from 'next/server'
 
-const resend = new Resend(process.env.RESEND_API_KEY)
-
 export async function POST(request: Request) {
   try {
     const body = await request.json()
@@ -11,6 +9,8 @@ export async function POST(request: Request) {
     if (!phone) {
       return NextResponse.json({ error: 'Телефон обязателен' }, { status: 400 })
     }
+
+    const resend = new Resend(process.env.RESEND_API_KEY)
 
     await resend.emails.send({
       from: 'Сайт kurty-granit.kz <noreply@kurty-granit.kz>',
