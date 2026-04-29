@@ -18,10 +18,8 @@ export const products: Product[] = [
     images: [
       'https://kurty.kz/assets/cache_image/media/cat/2016-12-10%2022.12.46%20(1)_2000x2000_584.jpg',
       'https://kurty.kz/assets/cache_image/media/cat/2016-12-10%2022.11.17%20(1)_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/cat/2016-12-10%2022.16.16%20(1)_2000x2000_584.jpg',
       'https://kurty.kz/assets/cache_image/media/catalog/facture/polirov_60x40_bf0.jpg',
-      'https://kurty.kz/assets/cache_image/media/primery/plita/IMAG1145_620x460_e66.jpg',
-      'https://kurty.kz/assets/cache_image/media/primery/plita/IMAG1155_620x460_e66.jpg',
-      'https://kurty.kz/assets/cache_image/media/primery/plita/IMG_2791_620x460_e66.jpg',
     ],
     description: 'Полированная гранитная плита формата 300×300×20 мм. Гладкая поверхность с глянцевым блеском. Морозостойкость — не менее 50 циклов.',
     specs: [
@@ -39,9 +37,11 @@ export const products: Product[] = [
     categorySlug: 'granitnye-plity',
     name: 'Плита полированная 300×600×20',
     images: [
-      'https://kurty.kz/assets/cache_image/media/catalog/facture/polirov_60x40_bf0.jpg',
-      'https://kurty.kz/assets/cache_image/media/primery/plita/IMAG1145_620x460_e66.jpg',
-      'https://kurty.kz/assets/cache_image/media/primery/plita/IMG_3359_620x460_e66.jpg',
+      'https://kurty.kz/assets/cache_image/media/1-polirovannye-i-plity-bolshih-razmerov_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/2-polirovannye-i-plity-bolshih-razmerov_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/3-polirovannye-i-plity-bolshih-razmerov_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/4-polirovannye-i-plity-bolshih-razmerov_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/5-polirovannye-i-plity-bolshih-razmerov_2000x2000_584.jpg',
     ],
     description: 'Полированная гранитная плита формата 300×600×20 мм. Популярный формат для облицовки фасадов и внутренних пространств.',
     specs: [
@@ -59,8 +59,9 @@ export const products: Product[] = [
     categorySlug: 'granitnye-plity',
     name: 'Плита шлифованная 300×600×20',
     images: [
-      'https://kurty.kz/assets/cache_image/media/primery/plita/IMAG1144_620x460_e66.jpg',
-      'https://kurty.kz/assets/cache_image/media/primery/plita/IMG_3379_620x460_e66.jpg',
+      'https://kurty.kz/assets/cache_image/media/6-shifovannyy-granit_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/5-shifovannyy-granit_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/4-shifovannyy-granit_2000x2000_584.jpg',
     ],
     description: 'Шлифованная гранитная плита 300×600×20 мм. Матовая поверхность с ровной фактурой.',
     specs: [
@@ -78,7 +79,9 @@ export const products: Product[] = [
     categorySlug: 'granitnye-plity',
     name: 'Плита пиленая 300×600×20',
     images: [
-      'https://kurty.kz/assets/cache_image/media/primery/plita/IMG_3380_620x460_e66.jpg',
+      'https://kurty.kz/assets/cache_image/media/cat/2016-12-10%2022.12.46%20(1)_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/cat/2016-12-10%2022.11.17%20(1)_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/cat/2016-12-10%2022.16.16%20(1)_2000x2000_584.jpg',
     ],
     description: 'Пиленая гранитная плита 300×600×20 мм. Поверхность после пиления — ровная матовая.',
     specs: [
@@ -95,8 +98,9 @@ export const products: Product[] = [
     categorySlug: 'granitnye-plity',
     name: 'Плита полированная 600×600×20',
     images: [
-      'https://kurty.kz/assets/cache_image/media/catalog/facture/polirov_60x40_bf0.jpg',
-      'https://kurty.kz/assets/cache_image/media/primery/plita/IMAG1145_620x460_e66.jpg',
+      'https://kurty.kz/assets/cache_image/media/cat/polirovka-50-mm-2_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/1-polirovannye-i-plity-bolshih-razmerov_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/2-polirovannye-i-plity-bolshih-razmerov_2000x2000_584.jpg',
     ],
     description: 'Крупноформатная полированная плита 600×600×20 мм. Создаёт эффект монолитного покрытия.',
     specs: [
@@ -114,7 +118,12 @@ export const products: Product[] = [
     categorySlug: 'granitnye-plity',
     name: 'Плита полированная 1000×600×20',
     images: [
-      'https://kurty.kz/assets/cache_image/media/catalog/facture/polirov_60x40_bf0.jpg',
+      'https://kurty.kz/assets/cache_image/media/1-polirovannye-i-plity-bolshih-razmerov_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/2-polirovannye-i-plity-bolshih-razmerov_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/3-polirovannye-i-plity-bolshih-razmerov_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/4-polirovannye-i-plity-bolshih-razmerov_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/5-polirovannye-i-plity-bolshih-razmerov_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/6-polirovannye-i-plity-bolshih-razmerov_2000x2000_584.jpg',
     ],
     description: 'Плита большого формата 1000×600×20 мм. Для масштабных облицовочных проектов.',
     specs: [
@@ -131,7 +140,11 @@ export const products: Product[] = [
     categorySlug: 'granitnye-plity',
     name: 'Плита полированная 1000×600×30',
     images: [
-      'https://kurty.kz/assets/cache_image/media/catalog/facture/polirov_60x40_bf0.jpg',
+      'https://kurty.kz/assets/cache_image/media/2-polirovannye-i-plity-bolshih-razmerov_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/1-polirovannye-i-plity-bolshih-razmerov_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/3-polirovannye-i-plity-bolshih-razmerov_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/4-polirovannye-i-plity-bolshih-razmerov_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/5-polirovannye-i-plity-bolshih-razmerov_2000x2000_584.jpg',
     ],
     description: 'Плита большого формата 1000×600×30 мм. Увеличенная толщина для нагруженных поверхностей.',
     specs: [
@@ -149,7 +162,11 @@ export const products: Product[] = [
     categorySlug: 'granitnye-plity',
     name: 'Плита термообработанная 20 мм',
     images: [
-      'https://kurty.kz/assets/cache_image/media/primery/plita/IMAG1155_620x460_e66.jpg',
+      'https://kurty.kz/assets/cache_image/media/1-termoobrabotannyy-granit_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/2-termoobrabotannyy-granit_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/5-termoobrabotannyy-granit_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/6-termoobrabotannyy-granit_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/7-termoobrabotannyy-granit_2000x2000_584.jpg',
     ],
     description: 'Термообработанная гранитная плита толщиной 20 мм. Матовая шероховатая поверхность после обжига.',
     specs: [
@@ -166,7 +183,9 @@ export const products: Product[] = [
     categorySlug: 'granitnye-plity',
     name: 'Плита термообработанная 30 мм',
     images: [
-      'https://kurty.kz/assets/cache_image/media/primery/plita/IMG_2791_620x460_e66.jpg',
+      'https://kurty.kz/assets/cache_image/media/cat/IMG_3258_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/2-termoobrabotannyy-granit_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/5-termoobrabotannyy-granit_2000x2000_584.jpg',
     ],
     description: 'Термообработанная гранитная плита толщиной 30 мм. Оптимальная толщина для мощения.',
     specs: [
@@ -183,7 +202,11 @@ export const products: Product[] = [
     slug: 'plita-termoobrabotannaya-50',
     categorySlug: 'granitnye-plity',
     name: 'Плита термообработанная 50 мм',
-    images: [],
+    images: [
+      'https://kurty.kz/assets/cache_image/media/cat/IMG_2975_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/5-termoobrabotannyy-granit_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/8-termoobrabotannyy-granit_2000x2000_584.jpg',
+    ],
     description: 'Термообработанная гранитная плита толщиной 50 мм. Для городского благоустройства.',
     specs: [
       { label: 'Толщина', value: '50 мм' },
@@ -199,7 +222,12 @@ export const products: Product[] = [
     slug: 'plita-termoobrabotannaya-80',
     categorySlug: 'granitnye-plity',
     name: 'Плита термообработанная 80 мм',
-    images: [],
+    images: [
+      'https://kurty.kz/assets/cache_image/media/cat/IMG_3380_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/5-termoobrabotannyy-granit_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/8-termoobrabotannyy-granit_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/10-termoobrabotannyy-granit_2000x2000_584.jpg',
+    ],
     description: 'Термообработанная гранитная плита толщиной 80 мм. Для проезжей части и нагруженных зон.',
     specs: [
       { label: 'Толщина', value: '80 мм' },
@@ -216,6 +244,9 @@ export const products: Product[] = [
     categorySlug: 'granitnye-plity',
     name: 'Плита полированная 30 мм (произвольный размер)',
     images: [
+      'https://kurty.kz/assets/cache_image/media/1_060918_0_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/1-polirovannye-i-plity-bolshih-razmerov_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/2-polirovannye-i-plity-bolshih-razmerov_2000x2000_584.jpg',
       'https://kurty.kz/assets/cache_image/media/cat/2016-12-10%2022.12.46%20(1)_2000x2000_584.jpg',
       'https://kurty.kz/assets/cache_image/media/cat/2016-12-10%2022.16.16%20(1)_2000x2000_584.jpg',
     ],
@@ -237,7 +268,12 @@ export const products: Product[] = [
     categorySlug: 'granitnaja-bruschatka',
     name: 'Брусчатка 100×100×30',
     images: [
-      'https://kurty.kz/assets/cache_image/media/primery/plita/IMAG1145_620x460_e66.jpg',
+      'https://kurty.kz/assets/cache_image/media/cat/%20100-100-50_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/cat/IMG_6623_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/4-bruschatka_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/1-bruschatka_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/2-bruschatka_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/3-bruschatka_2000x2000_584.jpg',
     ],
     description: 'Гранитная брусчатка 100×100×30 мм. Мелкоформатная плитка для тротуаров и дорожек.',
     specs: [
@@ -254,7 +290,13 @@ export const products: Product[] = [
     slug: 'bruschatka-100-100-50',
     categorySlug: 'granitnaja-bruschatka',
     name: 'Брусчатка 100×100×50',
-    images: [],
+    images: [
+      'https://kurty.kz/assets/cache_image/media/cat/%20100-100-50_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/cat/IMG_6623_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/4-bruschatka_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/1-bruschatka_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/2-bruschatka_2000x2000_584.jpg',
+    ],
     description: 'Гранитная брусчатка 100×100×50 мм. Увеличенная толщина для нагруженных пешеходных зон.',
     specs: [
       { label: 'Размер', value: '100×100 мм' },
@@ -269,7 +311,14 @@ export const products: Product[] = [
     slug: 'bruschatka-100-200-30',
     categorySlug: 'granitnaja-bruschatka',
     name: 'Брусчатка 100×200×30',
-    images: [],
+    images: [
+      'https://kurty.kz/assets/cache_image/media/cat/bruschsatka-100-200-30_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/cat/IMG_6623_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/4-bruschatka_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/1-bruschatka_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/2-bruschatka_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/3-bruschatka_2000x2000_584.jpg',
+    ],
     description: 'Гранитная брусчатка 100×200×30 мм. Прямоугольный формат для классической укладки.',
     specs: [
       { label: 'Размер', value: '100×200 мм' },
@@ -285,7 +334,14 @@ export const products: Product[] = [
     slug: 'bruschatka-100-200-50',
     categorySlug: 'granitnaja-bruschatka',
     name: 'Брусчатка 100×200×50',
-    images: [],
+    images: [
+      'https://kurty.kz/assets/cache_image/media/cat/bruschatka-100-200-50-krupno_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/cat/IMG_6623_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/4-bruschatka_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/1-bruschatka_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/2-bruschatka_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/3-bruschatka_2000x2000_584.jpg',
+    ],
     description: 'Гранитная брусчатка 100×200×50 мм. Основной формат для городского благоустройства.',
     specs: [
       { label: 'Размер', value: '100×200 мм' },
@@ -300,7 +356,13 @@ export const products: Product[] = [
     slug: 'bruschatka-200-200-30',
     categorySlug: 'granitnaja-bruschatka',
     name: 'Брусчатка 200×200×30',
-    images: [],
+    images: [
+      'https://kurty.kz/assets/cache_image/media/cat/%20100-100-50_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/cat/IMG_6623_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/4-bruschatka_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/1-bruschatka_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/2-bruschatka_2000x2000_584.jpg',
+    ],
     description: 'Гранитная брусчатка 200×200×30 мм. Среднеформатная плитка для быстрой укладки.',
     specs: [
       { label: 'Размер', value: '200×200 мм' },
@@ -314,7 +376,13 @@ export const products: Product[] = [
     slug: 'bruschatka-200-200-50',
     categorySlug: 'granitnaja-bruschatka',
     name: 'Брусчатка 200×200×50',
-    images: [],
+    images: [
+      'https://kurty.kz/assets/cache_image/media/cat/%20100-100-50_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/cat/IMG_6623_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/4-bruschatka_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/1-bruschatka_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/2-bruschatka_2000x2000_584.jpg',
+    ],
     description: 'Гранитная брусчатка 200×200×50 мм. Для мощения придомовых территорий и парковок.',
     specs: [
       { label: 'Размер', value: '200×200 мм' },
@@ -328,7 +396,13 @@ export const products: Product[] = [
     slug: 'bruschatka-200-300-30',
     categorySlug: 'granitnaja-bruschatka',
     name: 'Брусчатка 200×300×30',
-    images: [],
+    images: [
+      'https://kurty.kz/assets/cache_image/media/cat/IMG_3252_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/4-bruschatka_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/1-bruschatka_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/2-bruschatka_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/3-bruschatka_2000x2000_584.jpg',
+    ],
     description: 'Гранитная брусчатка 200×300×30 мм. Прямоугольный крупный формат.',
     specs: [
       { label: 'Размер', value: '200×300 мм' },
@@ -341,7 +415,13 @@ export const products: Product[] = [
     slug: 'bruschatka-200-300-50',
     categorySlug: 'granitnaja-bruschatka',
     name: 'Брусчатка 200×300×50',
-    images: [],
+    images: [
+      'https://kurty.kz/assets/cache_image/media/cat/bruschatka-100-200-50-krupno_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/4-bruschatka_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/1-bruschatka_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/2-bruschatka_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/3-bruschatka_2000x2000_584.jpg',
+    ],
     description: 'Гранитная брусчатка 200×300×50 мм. Для нагруженных площадей и набережных.',
     specs: [
       { label: 'Размер', value: '200×300 мм' },
@@ -354,7 +434,12 @@ export const products: Product[] = [
     slug: 'bruschatka-200-400-30',
     categorySlug: 'granitnaja-bruschatka',
     name: 'Брусчатка 200×400×30',
-    images: [],
+    images: [
+      'https://kurty.kz/assets/cache_image/media/cat/IMG_3252_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/4-bruschatka_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/1-bruschatka_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/2-bruschatka_2000x2000_584.jpg',
+    ],
     description: 'Гранитная брусчатка 200×400×30 мм. Длинный прямоугольный формат.',
     specs: [
       { label: 'Размер', value: '200×400 мм' },
@@ -367,7 +452,12 @@ export const products: Product[] = [
     slug: 'bruschatka-200-400-50',
     categorySlug: 'granitnaja-bruschatka',
     name: 'Брусчатка 200×400×50',
-    images: [],
+    images: [
+      'https://kurty.kz/assets/cache_image/media/cat/bruschatka-100-200-50-krupno_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/4-bruschatka_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/1-bruschatka_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/2-bruschatka_2000x2000_584.jpg',
+    ],
     description: 'Гранитная брусчатка 200×400×50 мм. Для нагруженных тротуаров и площадей.',
     specs: [
       { label: 'Размер', value: '200×400 мм' },
@@ -380,7 +470,11 @@ export const products: Product[] = [
     slug: 'bruschatka-300-300-min',
     categorySlug: 'granitnaja-bruschatka',
     name: 'Брусчатка 300×300 (мин.)',
-    images: [],
+    images: [
+      'https://kurty.kz/assets/cache_image/media/cat/IMG_3252_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/1-bruschatka_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/2-bruschatka_2000x2000_584.jpg',
+    ],
     description: 'Гранитная брусчатка минимальный размер 300×300 мм. Доступны все толщины от 20 мм.',
     specs: [
       { label: 'Минимальный размер', value: '300×300 мм' },
@@ -394,7 +488,11 @@ export const products: Product[] = [
     slug: 'bruschatka-100mm',
     categorySlug: 'granitnaja-bruschatka',
     name: 'Брусчатка 100 мм',
-    images: [],
+    images: [
+      'https://kurty.kz/assets/cache_image/media/cat/IMG_3252_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/4-bruschatka_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/1-bruschatka_2000x2000_584.jpg',
+    ],
     description: 'Гранитная брусчатка толщиной 100 мм. Для особо нагруженных дорог и площадей.',
     specs: [
       { label: 'Толщина', value: '100 мм' },
@@ -411,7 +509,14 @@ export const products: Product[] = [
     slug: 'bordyur-gp-1',
     categorySlug: 'granitnye-bordjury',
     name: 'Бордюр ГП-1 (300×150×L)',
-    images: [],
+    images: [
+      'https://kurty.kz/assets/cache_image/media/cat/bordyur-gp-1_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/1-bordyury_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/2-bordyury_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/3-bordyury_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/4-bordyury_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/5-bordyury_2000x2000_584.jpg',
+    ],
     description: 'Гранитный бордюр ГП-1 сечением 300×150 мм, произвольная длина. Вес погонного метра — 122 кг.',
     specs: [
       { label: 'Сечение', value: '300×150 мм' },
@@ -427,7 +532,15 @@ export const products: Product[] = [
     slug: 'bordyur-gp-2',
     categorySlug: 'granitnye-bordjury',
     name: 'Бордюр ГП-2 (400×180×L)',
-    images: [],
+    images: [
+      'https://kurty.kz/assets/cache_image/media/2_060918__2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/IMG_8060_2000x2000_584_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/3-bordyury_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/4-bordyury_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/1-bordyury_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/2-bordyury_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/5-bordyury_2000x2000_584.jpg',
+    ],
     description: 'Гранитный бордюр ГП-2 сечением 400×180 мм. Вес погонного метра — 195 кг.',
     specs: [
       { label: 'Сечение', value: '400×180 мм' },
@@ -443,7 +556,14 @@ export const products: Product[] = [
     slug: 'bordyur-gp-3',
     categorySlug: 'granitnye-bordjury',
     name: 'Бордюр ГП-3 (600×200×L)',
-    images: [],
+    images: [
+      'https://kurty.kz/assets/cache_image/media/cat/bordyur-gp-3_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/1-bordyury_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/2-bordyury_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/3-bordyury_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/4-bordyury_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/5-bordyury_2000x2000_584.jpg',
+    ],
     description: 'Гранитный бордюр ГП-3 сечением 600×200 мм. Крупный бордюр для городских магистралей.',
     specs: [
       { label: 'Сечение', value: '600×200 мм' },
@@ -459,7 +579,13 @@ export const products: Product[] = [
     slug: 'bordyur-gp-4',
     categorySlug: 'granitnye-bordjury',
     name: 'Бордюр ГП-4 (200×100×L)',
-    images: [],
+    images: [
+      'https://kurty.kz/assets/cache_image/media/cat/bordyur-gp-4_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/IMG_8855_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/1-bordyury_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/2-bordyury_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/3-bordyury_2000x2000_584.jpg',
+    ],
     description: 'Гранитный бордюр ГП-4 сечением 200×100 мм. Малый бордюр для садовых дорожек.',
     specs: [
       { label: 'Сечение', value: '200×100 мм' },
@@ -477,7 +603,9 @@ export const products: Product[] = [
     slug: 'polosa-l-400-20-termoobrabotannaya',
     categorySlug: 'zagotovki',
     name: 'Полоса L×400×20 термообработанная',
-    images: [],
+    images: [
+      'https://kurty.kz/assets/cache_image/media/catalog/products/zagotovki/polosa-polirovannaya_1_2000x2000_584.jpg',
+    ],
     description: 'Гранитная полоса шириной 400 мм, толщина 20 мм, произвольная длина. Термообработанная поверхность.',
     specs: [
       { label: 'Ширина', value: '400 мм' },
@@ -492,7 +620,9 @@ export const products: Product[] = [
     slug: 'polosa-l-600-30-polirovannaya',
     categorySlug: 'zagotovki',
     name: 'Полоса L×600×30 полированная',
-    images: [],
+    images: [
+      'https://kurty.kz/assets/cache_image/media/catalog/products/zagotovki/polosa-polirovannaya-600_2000x2000_584.jpg',
+    ],
     description: 'Гранитная полоса шириной 600 мм, толщина 30 мм. Полированная поверхность.',
     specs: [
       { label: 'Ширина', value: '600 мм' },
@@ -507,7 +637,9 @@ export const products: Product[] = [
     slug: 'polosa-l-600-30-termoobrabotannaya',
     categorySlug: 'zagotovki',
     name: 'Полоса L×600×30 термообработанная',
-    images: [],
+    images: [
+      'https://kurty.kz/assets/cache_image/media/catalog/products/zagotovki/polosa-polirovannaya-600_2000x2000_584.jpg',
+    ],
     description: 'Гранитная полоса шириной 600 мм, толщина 30 мм. Термообработанная поверхность.',
     specs: [
       { label: 'Ширина', value: '600 мм' },
@@ -521,7 +653,9 @@ export const products: Product[] = [
     slug: 'polosa-l-400-20-shlifovannaya',
     categorySlug: 'zagotovki',
     name: 'Полоса L×400×20 шлифованная',
-    images: [],
+    images: [
+      'https://kurty.kz/assets/cache_image/media/cat/pilenaya-polosa_2000x2000_584.jpg',
+    ],
     description: 'Гранитная полоса шириной 400 мм, толщина 20 мм. Шлифованная поверхность.',
     specs: [
       { label: 'Ширина', value: '400 мм' },
@@ -534,7 +668,9 @@ export const products: Product[] = [
     slug: 'polosa-l-600-30-shlifovannaya',
     categorySlug: 'zagotovki',
     name: 'Полоса L×600×30 шлифованная',
-    images: [],
+    images: [
+      'https://kurty.kz/assets/cache_image/media/cat/pilenaya-polosa_2000x2000_584.jpg',
+    ],
     description: 'Гранитная полоса шириной 600 мм, толщина 30 мм. Шлифованная поверхность.',
     specs: [
       { label: 'Ширина', value: '600 мм' },
@@ -547,7 +683,14 @@ export const products: Product[] = [
     slug: 'stupeni-30-termoobrabotannye',
     categorySlug: 'zagotovki',
     name: 'Ступени 30 мм термообработанные',
-    images: [],
+    images: [
+      'https://kurty.ru/assets/cache_image/media/1-stupeni_2000x2000_584.jpg',
+      'https://kurty.ru/assets/cache_image/media/2-stupeni_2000x2000_584.jpg',
+      'https://kurty.ru/assets/cache_image/media/3-stupeni_2000x2000_584.jpg',
+      'https://kurty.ru/assets/cache_image/media/4-stupeni_2000x2000_584.jpg',
+      'https://kurty.ru/assets/cache_image/media/5-stupeni_2000x2000_584.jpg',
+      'https://kurty.ru/assets/cache_image/media/6-stupeni_2000x2000_584.jpg',
+    ],
     description: 'Гранитные ступени толщиной 30 мм с термообработанной поверхностью. Нескользкие.',
     specs: [
       { label: 'Толщина', value: '30 мм' },
@@ -561,7 +704,13 @@ export const products: Product[] = [
     slug: 'stupeni-30-shlifovannye',
     categorySlug: 'zagotovki',
     name: 'Ступени 30 мм шлифованные',
-    images: [],
+    images: [
+      'https://kurty.ru/assets/cache_image/media/2-stupeni_2000x2000_584.jpg',
+      'https://kurty.ru/assets/cache_image/media/1-stupeni_2000x2000_584.jpg',
+      'https://kurty.ru/assets/cache_image/media/3-stupeni_2000x2000_584.jpg',
+      'https://kurty.ru/assets/cache_image/media/4-stupeni_2000x2000_584.jpg',
+      'https://kurty.ru/assets/cache_image/media/5-stupeni_2000x2000_584.jpg',
+    ],
     description: 'Гранитные ступени толщиной 30 мм с шлифованной поверхностью.',
     specs: [
       { label: 'Толщина', value: '30 мм' },
@@ -573,7 +722,12 @@ export const products: Product[] = [
     slug: 'stupeni-30-pilenye',
     categorySlug: 'zagotovki',
     name: 'Ступени 30 мм пиленые',
-    images: [],
+    images: [
+      'https://kurty.ru/assets/cache_image/media/3-stupeni_2000x2000_584.jpg',
+      'https://kurty.ru/assets/cache_image/media/1-stupeni_2000x2000_584.jpg',
+      'https://kurty.ru/assets/cache_image/media/2-stupeni_2000x2000_584.jpg',
+      'https://kurty.ru/assets/cache_image/media/4-stupeni_2000x2000_584.jpg',
+    ],
     description: 'Гранитные ступени толщиной 30 мм с пиленой поверхностью. Экономичный вариант.',
     specs: [
       { label: 'Толщина', value: '30 мм' },
@@ -586,7 +740,12 @@ export const products: Product[] = [
     slug: 'stupeni-polosa',
     categorySlug: 'zagotovki',
     name: 'Ступени-полоса',
-    images: [],
+    images: [
+      'https://kurty.ru/assets/cache_image/media/4-stupeni_2000x2000_584.jpg',
+      'https://kurty.ru/assets/cache_image/media/1-stupeni_2000x2000_584.jpg',
+      'https://kurty.ru/assets/cache_image/media/2-stupeni_2000x2000_584.jpg',
+      'https://kurty.ru/assets/cache_image/media/5-stupeni_2000x2000_584.jpg',
+    ],
     description: 'Гранитные заготовки в формате полосы для изготовления ступеней под заказ.',
     specs: [
       { label: 'Тип', value: 'Полоса под ступени' },
@@ -601,7 +760,9 @@ export const products: Product[] = [
     slug: 'oblicovochnaya-plita-skala-20',
     categorySlug: 'bloki',
     name: 'Облицовочная плита скала 20 мм',
-    images: [],
+    images: [
+      'https://kurty.kz/assets/cache_image/media/bloxs/dsc-00013_2000x2000_584.jpg',
+    ],
     description: 'Облицовочная плита с фактурой «скала» толщиной 20 мм. Натуральная рельефная поверхность.',
     specs: [
       { label: 'Толщина', value: '20 мм' },
@@ -615,7 +776,9 @@ export const products: Product[] = [
     slug: 'oblicovochnaya-plita-skala-30',
     categorySlug: 'bloki',
     name: 'Облицовочная плита скала 30 мм',
-    images: [],
+    images: [
+      'https://kurty.kz/assets/cache_image/media/bloxs/dsc-00013_2000x2000_584.jpg',
+    ],
     description: 'Облицовочная плита с фактурой «скала» толщиной 30 мм. Увеличенная толщина для фасадов.',
     specs: [
       { label: 'Толщина', value: '30 мм' },
