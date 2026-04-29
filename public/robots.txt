@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://kurty-granit.kz
+
+# Sitemaps
+Sitemap: https://kurty-granit.kz/sitemap.xml
