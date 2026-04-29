@@ -25,24 +25,24 @@ export default function Hero() {
           Куртинское месторождение · Казахстан
         </p>
 
-        <h1 className="text-4xl font-bold leading-tight text-stone-50 sm:text-5xl lg:text-6xl">
+        <h1 className="text-4xl font-bold leading-tight text-white sm:text-5xl lg:text-6xl">
           Куртинский гранит и изделия с доставкой по России и Казахстану
         </h1>
 
-        <p className="mx-auto mt-6 max-w-2xl text-lg text-stone-200 leading-relaxed">
+        <p className="mx-auto mt-6 max-w-2xl text-lg text-white/80 leading-relaxed">
           Завод по обработке камня «Курты» — прямой производитель. Добыча и обработка гранита с 1972 года.
         </p>
 
         <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
           <Link
             href="/contacts#form"
-            className="inline-flex min-w-[180px] items-center justify-center rounded bg-accent px-8 py-4 font-semibold text-stone-950 transition-colors hover:bg-accent-dark"
+            className="inline-flex min-w-[180px] items-center justify-center rounded bg-accent px-8 py-4 font-semibold text-white transition-colors hover:bg-accent-dark"
           >
             Запросить КП
           </Link>
           <Link
             href="/catalog"
-            className="inline-flex min-w-[180px] items-center justify-center rounded border border-stone-50/50 px-8 py-4 font-semibold text-stone-50 transition-colors hover:border-stone-50 hover:bg-stone-50/10"
+            className="inline-flex min-w-[180px] items-center justify-center rounded border border-white/50 px-8 py-4 font-semibold text-white transition-colors hover:border-white hover:bg-white/10"
           >
             Смотреть каталог
           </Link>
