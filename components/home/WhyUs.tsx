@@ -39,7 +39,7 @@ const icons: Record<string, React.ReactNode> = {
 
 export default function WhyUs() {
   return (
-    <section className="bg-stone-900 py-20">
+    <section className="bg-stone-950 py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-12">
           <SectionTitle title="Почему выбирают нас" />
@@ -49,7 +49,7 @@ export default function WhyUs() {
           {company.advantages.map((advantage) => (
             <div
               key={advantage.title}
-              className="rounded-lg border-l-4 border-accent bg-stone-800 p-6"
+              className="rounded-lg border border-stone-700 border-l-4 border-l-accent bg-stone-800 p-6"
             >
               <div className="mb-4 text-accent">
                 {icons[advantage.icon] ?? null}

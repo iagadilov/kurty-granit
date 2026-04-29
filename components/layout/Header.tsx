@@ -16,7 +16,7 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-40 bg-stone-900 border-b border-stone-800 h-18">
+    <header className="sticky top-0 z-40 bg-stone-900 border-b border-stone-700 shadow-sm h-18">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-[72px] flex items-center justify-between gap-4">
         {/* Logo */}
         <Link href="/" className="flex flex-col shrink-0">
@@ -32,7 +32,7 @@ export default function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-sm text-stone-200 hover:text-accent transition-colors"
+              className="text-sm text-stone-50 hover:text-accent transition-colors"
             >
               {link.label}
             </Link>
@@ -43,13 +43,13 @@ export default function Header() {
         <div className="hidden md:flex items-center gap-4 shrink-0">
           <a
             href={`tel:${company.phoneRaw}`}
-            className="text-sm font-medium text-stone-50 hover:text-accent transition-colors whitespace-nowrap"
+            className="text-sm font-medium text-accent hover:text-accent-dark transition-colors whitespace-nowrap"
           >
             {company.phone}
           </a>
           <Link
             href="/contacts#form"
-            className="px-4 py-2 rounded text-sm font-semibold bg-accent text-stone-950 hover:bg-accent-dark transition-colors whitespace-nowrap"
+            className="px-4 py-2 rounded text-sm font-semibold bg-accent text-white hover:bg-accent-dark transition-colors whitespace-nowrap"
           >
             Запросить КП
           </Link>
@@ -75,13 +75,13 @@ export default function Header() {
 
       {/* Mobile menu */}
       {menuOpen && (
-        <div className="md:hidden bg-stone-900 border-t border-stone-800 px-4 pb-4">
+        <div className="md:hidden bg-stone-900 border-t border-stone-700 px-4 pb-4">
           <nav className="flex flex-col gap-1 pt-2">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className="py-2 text-sm text-stone-200 hover:text-accent transition-colors"
+                className="py-2 text-sm text-stone-50 hover:text-accent transition-colors"
                 onClick={() => setMenuOpen(false)}
               >
                 {link.label}
@@ -91,13 +91,13 @@ export default function Header() {
           <div className="mt-4 flex flex-col gap-3">
             <a
               href={`tel:${company.phoneRaw}`}
-              className="text-sm font-medium text-stone-50 hover:text-accent transition-colors"
+              className="text-sm font-medium text-accent hover:text-accent-dark transition-colors"
             >
               {company.phone}
             </a>
             <Link
               href="/contacts#form"
-              className="inline-flex justify-center px-4 py-2 rounded text-sm font-semibold bg-accent text-stone-950 hover:bg-accent-dark transition-colors"
+              className="inline-flex justify-center px-4 py-2 rounded text-sm font-semibold bg-accent text-white hover:bg-accent-dark transition-colors"
               onClick={() => setMenuOpen(false)}
             >
               Запросить КП

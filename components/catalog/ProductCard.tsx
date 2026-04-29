@@ -12,7 +12,7 @@ export default function ProductCard({ product }: ProductCardProps) {
   const keySpecs = product.specs.slice(0, 3);
 
   return (
-    <div className="group flex flex-col overflow-hidden rounded-lg bg-stone-900 transition-colors hover:bg-stone-800">
+    <div className="group flex flex-col overflow-hidden rounded-lg bg-stone-900 border border-stone-700 shadow-sm hover:shadow-md transition-all hover:bg-stone-800">
       {/* Image */}
       <div className="relative aspect-[4/3] overflow-hidden">
         {firstImage ? (
@@ -52,7 +52,7 @@ export default function ProductCard({ product }: ProductCardProps) {
 
         <Link
           href={href}
-          className="mt-auto inline-flex items-center justify-center rounded bg-accent px-4 py-2 text-sm font-medium text-stone-950 transition-opacity hover:opacity-90"
+          className="mt-auto inline-flex items-center justify-center rounded bg-accent px-4 py-2 text-sm font-medium text-white transition-opacity hover:opacity-90"
         >
           Узнать цену
         </Link>

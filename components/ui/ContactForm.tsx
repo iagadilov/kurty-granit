@@ -44,11 +44,11 @@ export default function ContactForm() {
   }
 
   const inputClass =
-    'w-full rounded border border-stone-700 bg-stone-800 px-4 py-3 text-stone-50 placeholder-stone-400 outline-none transition-colors focus:border-accent focus:ring-1 focus:ring-accent';
+    'w-full rounded border border-stone-700 bg-stone-900 px-4 py-3 text-stone-50 placeholder-stone-400 outline-none transition-colors focus:border-accent focus:ring-1 focus:ring-accent';
 
   if (state === 'success') {
     return (
-      <div className="rounded border border-accent/30 bg-stone-800 p-8 text-center">
+      <div className="rounded border border-accent/30 bg-stone-900 p-8 text-center">
         <svg
           className="mx-auto mb-4 h-12 w-12 text-accent"
           xmlns="http://www.w3.org/2000/svg"
@@ -145,7 +145,7 @@ export default function ContactForm() {
       <button
         type="submit"
         disabled={state === 'loading'}
-        className="w-full rounded bg-accent px-6 py-3.5 font-semibold text-stone-950 transition-colors hover:bg-accent-dark disabled:cursor-not-allowed disabled:opacity-60"
+        className="w-full rounded bg-accent px-6 py-3.5 font-semibold text-white transition-colors hover:bg-accent-dark disabled:cursor-not-allowed disabled:opacity-60"
       >
         {state === 'loading' ? 'Отправляем...' : 'Отправить заявку'}
       </button>

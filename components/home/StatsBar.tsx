@@ -2,7 +2,7 @@ import { company } from '@/lib/data/company';
 
 export default function StatsBar() {
   return (
-    <section className="bg-stone-900">
+    <section className="bg-stone-900 border-y border-stone-700">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col divide-y divide-stone-700 sm:flex-row sm:divide-x sm:divide-y-0">
           {company.stats.map((stat, index) => (

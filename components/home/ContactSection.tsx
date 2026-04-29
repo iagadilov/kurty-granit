@@ -4,7 +4,7 @@ import { company } from '@/lib/data/company';
 
 export default function ContactSection() {
   return (
-    <section id="form" className="bg-stone-900 py-20">
+    <section id="form" className="bg-stone-800 py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-12">
           <SectionTitle title="Запросить коммерческое предложение" />

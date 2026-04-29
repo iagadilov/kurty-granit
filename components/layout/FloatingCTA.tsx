@@ -50,7 +50,7 @@ export default function FloatingCTA() {
               href={action.href}
               target={action.href.startsWith('tel') ? undefined : '_blank'}
               rel={action.href.startsWith('tel') ? undefined : 'noopener noreferrer'}
-              className="flex items-center gap-2 bg-stone-900 border border-stone-800 text-stone-50 text-sm font-medium px-4 py-2.5 rounded-full shadow-lg hover:bg-stone-800 transition-colors whitespace-nowrap"
+              className="flex items-center gap-2 bg-stone-900 border border-stone-700 text-stone-50 text-sm font-medium px-4 py-2.5 rounded-full shadow-lg hover:bg-stone-800 transition-colors whitespace-nowrap"
             >
               <action.Icon />
               {action.label}
@@ -63,7 +63,7 @@ export default function FloatingCTA() {
       <button
         onClick={() => setOpen((v) => !v)}
         aria-label={open ? 'Закрыть' : 'Связаться с нами'}
-        className="w-14 h-14 rounded-full bg-accent hover:bg-accent-dark text-stone-950 shadow-xl flex items-center justify-center transition-all"
+        className="w-14 h-14 rounded-full bg-accent hover:bg-accent-dark text-white shadow-xl flex items-center justify-center transition-all"
       >
         {open ? (
           <svg
