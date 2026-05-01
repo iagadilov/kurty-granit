@@ -6,7 +6,7 @@ import { company } from '@/lib/data/company';
 export const metadata: Metadata = {
   title: 'О компании',
   description:
-    'Завод по обработке камня «Курты» — добыча и реализация гранитных блоков Куртинского месторождения. История, характеристики гранита, планы развития.',
+    'ТОО «Курты Гранит» — добыча и реализация гранитных блоков Куртинского месторождения. 100% казахстанское производство. Поставки по Казахстану, России и странам СНГ.',
 };
 
 const mineralComposition = [
@@ -54,14 +54,14 @@ export default function AboutPage() {
         <section className="mb-16">
           <div className="rounded-lg bg-stone-900 border border-stone-800 p-8">
             <p className="leading-relaxed text-stone-400">
-              Завод по обработке камня «Курты» занимается добычей и реализацией гранитных блоков Куртинского
-              месторождения. Компании принадлежит 10 квадратных километров площади разведанного гранитного массива,
-              на котором детально разведано часть участков с утверждёнными запасами более 10 млн кубических метров
+              ТОО «Курты Гранит» занимается добычей и реализацией гранитных блоков Куртинского
+              месторождения. Компании принадлежит 20 Га площади разведанного гранитного массива,
+              на котором детально разведано часть участков с утверждёнными запасами более 20 млн кубических метров
               гранита.
             </p>
             <p className="mt-4 leading-relaxed text-stone-400">
-              Месторождение разрабатывается с 1972 года. За это время накоплен огромный опыт в добыче и обработке
-              камня. Предприятие оснащено современным оборудованием и производит гранитные изделия в соответствии
+              Предприятие основано в 2015 году. За это время накоплен значительный опыт в добыче и обработке
+              камня. Производство оснащено современным оборудованием и выпускает гранитные изделия в соответствии
               с ГОСТ 9479-2011.
             </p>
             <p className="mt-4 leading-relaxed text-stone-400">
@@ -163,46 +163,10 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* Development plan */}
-        <section className="mb-16">
-          <h2 className="mb-6 text-2xl font-bold text-stone-50">Проект развития производства</h2>
-          <div className="grid gap-6 sm:grid-cols-3">
-            <div className="rounded-lg bg-stone-900 border border-stone-800 p-6">
-              <div className="mb-3 text-xs font-semibold uppercase tracking-wider text-accent">
-                1 очередь · 2023–2024
-              </div>
-              <ul className="space-y-1.5 text-sm text-stone-400">
-                <li>Производство плит: 4 000 м²/день</li>
-                <li>Брусчатка: 4 000 м²/день</li>
-                <li>Бордюр: 2 км/день</li>
-              </ul>
-            </div>
-            <div className="rounded-lg bg-stone-900 border border-stone-800 p-6">
-              <div className="mb-3 text-xs font-semibold uppercase tracking-wider text-accent">
-                2 очередь · 2024–2026
-              </div>
-              <ul className="space-y-1.5 text-sm text-stone-400">
-                <li>Производство плит: 5 000 м²/день</li>
-                <li>Расширение парка оборудования</li>
-              </ul>
-            </div>
-            <div className="rounded-lg bg-stone-900 border border-stone-800 p-6">
-              <div className="mb-3 text-xs font-semibold uppercase tracking-wider text-accent">
-                3 очередь
-              </div>
-              <ul className="space-y-1.5 text-sm text-stone-400">
-                <li>Колонны и пилястры</li>
-                <li>Балясины</li>
-                <li>Памятники</li>
-              </ul>
-            </div>
-          </div>
-        </section>
-
         {/* Railway */}
         <section>
           <div className="rounded-lg bg-stone-900 border border-stone-800 p-6">
-            <h3 className="mb-2 font-semibold text-stone-50">ЖД пути</h3>
+            <h3 className="mb-2 font-semibold text-stone-50">Собственные ЖД пути</h3>
             <p className="text-sm text-stone-400">
               На производственной базе проложены 2 железнодорожные линии протяжённостью 300 метров каждая.
               Это обеспечивает быструю и удобную погрузку вагонов непосредственно на заводе.

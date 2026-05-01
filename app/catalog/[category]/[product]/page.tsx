@@ -3,6 +3,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import { categories, getCategoryBySlug } from '@/lib/data/categories';
 import { products, getProductBySlug } from '@/lib/data/products';
+import { company } from '@/lib/data/company';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import ProductGallery from '@/components/catalog/ProductGallery';
 
@@ -85,13 +86,13 @@ export default async function ProductPage({ params }: PageProps) {
               href="/contacts#form"
               className="mb-4 inline-flex items-center justify-center rounded-lg bg-accent px-6 py-3 text-base font-semibold text-stone-950 transition-opacity hover:opacity-90"
             >
-              Запросить КП
+              Запросить цену
             </Link>
 
             {/* Contact info */}
             <div className="flex flex-col gap-2 text-sm text-stone-400">
               <a
-                href="tel:+77710111118"
+                href={`tel:${company.phoneRaw}`}
                 className="flex items-center gap-2 transition-colors hover:text-stone-50"
               >
                 <svg
@@ -108,10 +109,10 @@ export default async function ProductPage({ params }: PageProps) {
                 >
                   <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                 </svg>
-                +7 (771) 011-11-18
+                {company.phone}
               </a>
               <a
-                href="https://wa.me/77717487905"
+                href={`https://wa.me/${company.whatsapp.replace(/\D/g, '')}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 transition-colors hover:text-stone-50"

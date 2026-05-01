@@ -5,7 +5,7 @@ import SectionTitle from '@/components/ui/SectionTitle';
 export const metadata: Metadata = {
   title: 'Доставка и оплата',
   description:
-    'Доставка гранита по Казахстану и России. Самовывоз, автомобильный и железнодорожный транспорт. Безналичный расчёт для юридических лиц.',
+    'Доставка гранита по Казахстану, России, Кыргызстану, Узбекистану и странам СНГ. Самовывоз, автомобильный и железнодорожный транспорт. Безналичный расчёт для юридических лиц.',
 };
 
 const deliveryMethods = [
@@ -51,7 +51,7 @@ const deliveryMethods = [
       </svg>
     ),
     title: 'Автомобильный транспорт',
-    description: 'По Казахстану и России. Фуры грузоподъёмностью 22 тонны. Доставка до объекта.',
+    description: 'По Казахстану, России, Кыргызстану, Узбекистану и СНГ. Фуры грузоподъёмностью 22 тонны. Доставка до объекта.',
   },
   {
     icon: (
@@ -159,7 +159,7 @@ export default function DeliveryPage() {
         {/* Delivery regions */}
         <section className="mb-16">
           <h2 className="mb-6 text-2xl font-bold text-stone-50">Регионы доставки</h2>
-          <div className="grid gap-6 sm:grid-cols-2">
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             <div className="rounded-lg bg-stone-900 border border-stone-800 p-6">
               <h3 className="mb-3 font-semibold text-accent">Казахстан</h3>
               <p className="text-sm text-stone-400">
@@ -170,8 +170,19 @@ export default function DeliveryPage() {
             <div className="rounded-lg bg-stone-900 border border-stone-800 p-6">
               <h3 className="mb-3 font-semibold text-accent">Россия</h3>
               <p className="text-sm text-stone-400">
-                Москва, Московская область, Санкт-Петербург, Петрозаводск, Нижний Новгород, Самара, Уфа,
-                Екатеринбург и другие города.
+                Москва, Санкт-Петербург, Нижний Новгород, Самара, Уфа, Екатеринбург и другие города. Отгрузка вагонами по сети РЖД.
+              </p>
+            </div>
+            <div className="rounded-lg bg-stone-900 border border-stone-800 p-6">
+              <h3 className="mb-3 font-semibold text-accent">Кыргызстан и Узбекистан</h3>
+              <p className="text-sm text-stone-400">
+                Бишкек, Ош, Ташкент и другие города. Отгрузка вагонами и фурами через пограничные переходы.
+              </p>
+            </div>
+            <div className="rounded-lg bg-stone-900 border border-stone-800 p-6">
+              <h3 className="mb-3 font-semibold text-accent">Страны СНГ</h3>
+              <p className="text-sm text-stone-400">
+                Поставки в любую страну СНГ железнодорожным и автомобильным транспортом. Опыт работы с таможенным оформлением.
               </p>
             </div>
           </div>

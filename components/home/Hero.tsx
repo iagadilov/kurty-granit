@@ -7,8 +7,8 @@ export default function Hero() {
       {/* Background image */}
       <div className="absolute inset-0">
         <Image
-          src="https://kurty.kz/assets/cache_image/media/cat/2016-12-10%2022.12.46%20(1)_2000x2000_584.jpg"
-          alt="Куртинский гранит — месторождение"
+          src="/hero/quarry-aerial.jpg"
+          alt="Куртинский гранит — карьер с высоты"
           fill
           style={{ objectFit: 'cover' }}
           priority
@@ -26,11 +26,11 @@ export default function Hero() {
         </p>
 
         <h1 className="text-4xl font-bold leading-tight text-white sm:text-5xl lg:text-6xl">
-          Куртинский гранит и изделия с доставкой по России и Казахстану
+          Куртинский гранит и изделия с доставкой по Казахстану, России и СНГ
         </h1>
 
         <p className="mx-auto mt-6 max-w-2xl text-lg text-white/80 leading-relaxed">
-          Завод по обработке камня «Курты» — прямой производитель. Добыча и обработка гранита с 1972 года.
+          ТОО «Курты Гранит» — прямой производитель. Добыча и обработка гранита с 2015 года. 100% казахстанское производство.
         </p>
 
         <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
@@ -38,7 +38,7 @@ export default function Hero() {
             href="/contacts#form"
             className="inline-flex min-w-[180px] items-center justify-center rounded bg-accent px-8 py-4 font-semibold text-white transition-colors hover:bg-accent-dark"
           >
-            Запросить КП
+            Запросить цену
           </Link>
           <Link
             href="/catalog"

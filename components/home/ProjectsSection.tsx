@@ -3,34 +3,29 @@ import SectionTitle from '@/components/ui/SectionTitle';
 
 const projects = [
   {
-    src: 'https://kurty.kz/assets/cache_image/media/gallery/DSCN0027_2000x2000_629.jpg',
-    alt: 'Манежная площадь, Москва',
-    caption: 'Манежная площадь, Москва',
+    src: '/projects/kunaev-taraz.jpg',
+    alt: 'Памятник Динмухамеду Кунаеву, Тараз',
+    caption: 'Памятник Кунаеву, Тараз',
   },
   {
-    src: 'https://kurty.kz/assets/cache_image/media/gallery/IMG_0148_2000x2000_629.jpg',
-    alt: 'Площадь Республики, Алматы',
-    caption: 'Площадь Республики, Алматы',
+    src: '/projects/police-memorial-petropavlovsk.jpg',
+    alt: 'Памятник погибшим полицейским, Северный Казахстан',
+    caption: 'Памятник погибшим полицейским, Северный Казахстан',
   },
   {
-    src: 'https://kurty.kz/assets/cache_image/media/gallery/DSC_0508_2000x2000_629.jpg',
-    alt: 'Памятник, Астана',
-    caption: 'Памятник, Астана',
+    src: '/projects/gandhi-astana.jpeg',
+    alt: 'Памятник Махатме Ганди, Астана',
+    caption: 'Памятник Ганди, Астана',
   },
   {
-    src: 'https://kurty.kz/assets/cache_image/media/gallery/IMG_4007_2000x2000_629.jpg',
-    alt: 'Памятник, Талдыкорган',
-    caption: 'Памятник, Талдыкорган',
+    src: '/projects/greenline-astana.jpg',
+    alt: 'Проект GreenLine, Астана',
+    caption: 'Проект GreenLine, Астана',
   },
   {
-    src: 'https://kurty.kz/assets/cache_image/media/gallery/5_office4_2000x2000_629.jpg',
-    alt: 'Офисное здание, Алматы',
-    caption: 'Офисное здание, Алматы',
-  },
-  {
-    src: 'https://kurty.kz/media/gallery/new_square.jpg',
-    alt: 'Площадь Республики, Алматы',
-    caption: 'Площадь Республики, Алматы',
+    src: '/projects/medeu-almaty.jpg',
+    alt: 'Гранитный бордюр, Медеу',
+    caption: 'Бордюр, Медеу',
   },
 ];
 

@@ -790,10 +790,83 @@ export const products: Product[] = [
   },
 ];
 
+function parseSizeKey(name: string): [number, number, number] {
+  const full = name.match(/(\d+)[×x](\d+)[×x](\d+)/);
+  if (full) return [parseInt(full[1]), parseInt(full[2]), parseInt(full[3])];
+  const two = name.match(/(\d+)[×x](\d+)/);
+  if (two) return [parseInt(two[1]), parseInt(two[2]), 0];
+  const oneMm = name.match(/(\d+)\s*мм/);
+  if (oneMm) return [0, 0, parseInt(oneMm[1])];
+  return [9999, 9999, 9999];
+}
+
 export function getProductsByCategorySlug(categorySlug: string): Product[] {
-  return products.filter(p => p.categorySlug === categorySlug);
+  return products
+    .filter(p => p.categorySlug === categorySlug)
+    .sort((a, b) => {
+      const [aw, ah, at] = parseSizeKey(a.name);
+      const [bw, bh, bt] = parseSizeKey(b.name);
+      const aArea = aw * ah || at;
+      const bArea = bw * bh || bt;
+      if (aArea !== bArea) return aArea - bArea;
+      return at - bt;
+    });
 }
 
 export function getProductBySlug(categorySlug: string, productSlug: string): Product | undefined {
   return products.find(p => p.categorySlug === categorySlug && p.slug === productSlug);
+}
+
+export interface CategoryVariants {
+  sizes: string[];
+  finishes: { name: string; image: string }[];
+  note?: string;
+}
+
+const cleanMm = (v: string) => v.replace(/\s*мм\s*$/i, '').trim();
+
+const finishNotes: Record<string, string> = {
+  'granitnye-plity': 'и все такие же размеры с толщиной 30–100 мм, и другие — на заказ',
+  'granitnaja-bruschatka': 'и другие размеры с толщиной 30, 50, 100 мм — на заказ',
+};
+
+export function getCategoryVariants(categorySlug: string): CategoryVariants {
+  const items = products.filter(p => p.categorySlug === categorySlug);
+  const sizes = new Set<string>();
+  const finishesMap = new Map<string, string>();
+
+  for (const product of items) {
+    const sizeSpec = product.specs.find(s => s.label === 'Размер')?.value;
+    const thicknessSpec = product.specs.find(s => s.label === 'Толщина')?.value;
+    const finishSpec = product.specs.find(s => s.label === 'Обработка')?.value;
+    const sectionSpec = product.specs.find(s => s.label === 'Сечение')?.value;
+
+    if (sectionSpec) {
+      sizes.add(cleanMm(sectionSpec));
+    } else if (sizeSpec && thicknessSpec) {
+      sizes.add(`${cleanMm(sizeSpec)}×${cleanMm(thicknessSpec)}`);
+    } else if (sizeSpec) {
+      sizes.add(cleanMm(sizeSpec));
+    } else if (thicknessSpec) {
+      sizes.add(`толщина ${cleanMm(thicknessSpec)} мм`);
+    }
+
+    if (finishSpec && !finishesMap.has(finishSpec)) {
+      finishesMap.set(finishSpec, product.images[0]);
+    }
+  }
+
+  const sortedSizes = Array.from(sizes).sort((a, b) => {
+    const aNum = (a.match(/\d+/g) ?? ['9999']).map(Number);
+    const bNum = (b.match(/\d+/g) ?? ['9999']).map(Number);
+    const aArea = (aNum[0] ?? 0) * (aNum[1] ?? 1);
+    const bArea = (bNum[0] ?? 0) * (bNum[1] ?? 1);
+    return aArea - bArea;
+  });
+
+  return {
+    sizes: sortedSizes,
+    finishes: Array.from(finishesMap.entries()).map(([name, image]) => ({ name, image })),
+    note: finishNotes[categorySlug],
+  };
 }

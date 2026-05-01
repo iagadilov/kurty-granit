@@ -7,7 +7,7 @@ import { company } from '@/lib/data/company';
 export const metadata: Metadata = {
   title: 'Контакты',
   description:
-    'Контакты завода по обработке камня «Курты». Офисы в Казахстане и России. Телефоны, email, адреса.',
+    'Контакты ТОО «Курты Гранит». Телефоны, email, адрес производства. Отгрузка по Казахстану, России и странам СНГ.',
 };
 
 export default function ContactsPage() {
@@ -20,10 +20,9 @@ export default function ContactsPage() {
           <SectionTitle title="Контакты" />
         </div>
 
-        {/* Office cards */}
+        {/* Office card */}
         <section className="mb-16">
-          <div className="grid gap-6 sm:grid-cols-2">
-            {/* Kazakhstan */}
+          <div className="max-w-xl">
             <div className="rounded-lg bg-stone-900 border border-stone-800 p-6">
               <div className="mb-4 flex items-center gap-2">
                 <div className="h-0.5 w-6 bg-accent" />
@@ -36,18 +35,22 @@ export default function ContactsPage() {
                 </div>
                 <div>
                   <dt className="text-xs uppercase tracking-wider text-stone-500">Адрес</dt>
-                  <dd className="mt-0.5 text-stone-400">
-                    040613, Республика Казахстан, {company.address.kz}
-                  </dd>
+                  <dd className="mt-0.5 text-stone-400">{company.address.factory}</dd>
                 </div>
                 <div>
-                  <dt className="text-xs uppercase tracking-wider text-stone-500">Телефон</dt>
-                  <dd className="mt-0.5">
+                  <dt className="text-xs uppercase tracking-wider text-stone-500">Телефоны</dt>
+                  <dd className="mt-0.5 flex flex-col gap-0.5">
                     <a
                       href={`tel:${company.phoneRaw}`}
                       className="text-accent transition-colors hover:text-accent-dark"
                     >
                       {company.phone}
+                    </a>
+                    <a
+                      href={`tel:${company.phoneRaw2}`}
+                      className="text-accent transition-colors hover:text-accent-dark"
+                    >
+                      {company.phone2}
                     </a>
                   </dd>
                 </div>
@@ -63,46 +66,15 @@ export default function ContactsPage() {
                   </dd>
                 </div>
                 <div>
-                  <dt className="text-xs uppercase tracking-wider text-stone-500">Самовывоз</dt>
-                  <dd className="mt-0.5 text-stone-400">{company.address.factory}</dd>
-                </div>
-              </dl>
-            </div>
-
-            {/* Russia */}
-            <div className="rounded-lg bg-stone-900 border border-stone-800 p-6">
-              <div className="mb-4 flex items-center gap-2">
-                <div className="h-0.5 w-6 bg-accent" />
-                <h3 className="font-semibold text-stone-50">Россия (представительство)</h3>
-              </div>
-              <dl className="space-y-3 text-sm">
-                <div>
-                  <dt className="text-xs uppercase tracking-wider text-stone-500">Организация</dt>
-                  <dd className="mt-0.5 text-stone-400">{company.fullName}</dd>
-                </div>
-                <div>
-                  <dt className="text-xs uppercase tracking-wider text-stone-500">Адрес</dt>
-                  <dd className="mt-0.5 text-stone-400">{company.address.ru}</dd>
-                </div>
-                <div>
-                  <dt className="text-xs uppercase tracking-wider text-stone-500">Телефон</dt>
+                  <dt className="text-xs uppercase tracking-wider text-stone-500">Instagram</dt>
                   <dd className="mt-0.5">
                     <a
-                      href="tel:+77710111118"
+                      href={`https://www.instagram.com/${company.instagram}/`}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="text-accent transition-colors hover:text-accent-dark"
                     >
-                      +7 (771) 011-11-18
-                    </a>
-                  </dd>
-                </div>
-                <div>
-                  <dt className="text-xs uppercase tracking-wider text-stone-500">Email</dt>
-                  <dd className="mt-0.5">
-                    <a
-                      href="mailto:info@kurty.ru"
-                      className="text-accent transition-colors hover:text-accent-dark"
-                    >
-                      info@kurty.ru
+                      @{company.instagram}
                     </a>
                   </dd>
                 </div>

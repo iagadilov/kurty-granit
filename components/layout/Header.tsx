@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { company } from '@/lib/data/company';
 
@@ -12,18 +13,38 @@ const navLinks = [
   { label: 'Контакты', href: '/contacts' },
 ];
 
+function LogoIcon() {
+  return (
+    <div className="relative w-11 h-11 rounded overflow-hidden ring-1 ring-stone-700 shrink-0">
+      <Image
+        src="/logo.jpeg"
+        alt="Курты Гранит — логотип"
+        fill
+        sizes="44px"
+        className="object-cover"
+        priority
+      />
+    </div>
+  );
+}
+
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-40 bg-stone-900 border-b border-stone-700 shadow-sm h-18">
+    <header className="sticky top-0 z-40 bg-stone-900 border-b border-stone-700 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-[72px] flex items-center justify-between gap-4">
         {/* Logo */}
-        <Link href="/" className="flex flex-col shrink-0">
-          <span className="text-2xl font-bold leading-none text-accent">КУРТЫ</span>
-          <span className="text-[11px] text-stone-400 leading-tight mt-0.5">
-            {company.fullName.split('«')[0].trim()}
-          </span>
+        <Link href="/" className="flex items-center gap-2.5 shrink-0">
+          <LogoIcon />
+          <div className="flex flex-col">
+            <span className="text-xl font-bold leading-none text-accent tracking-wide">
+              КУРТЫ ГРАНИТ
+            </span>
+            <span className="text-[10px] text-stone-400 leading-tight mt-0.5 tracking-wide">
+              🇰🇿 100% KZ производство
+            </span>
+          </div>
         </Link>
 
         {/* Desktop Nav */}
@@ -41,17 +62,25 @@ export default function Header() {
 
         {/* Right side */}
         <div className="hidden md:flex items-center gap-4 shrink-0">
-          <a
-            href={`tel:${company.phoneRaw}`}
-            className="text-sm font-medium text-accent hover:text-accent-dark transition-colors whitespace-nowrap"
-          >
-            {company.phone}
-          </a>
+          <div className="flex flex-col items-end">
+            <a
+              href={`tel:${company.phoneRaw}`}
+              className="text-sm font-medium text-accent hover:text-accent-dark transition-colors whitespace-nowrap"
+            >
+              {company.phone}
+            </a>
+            <a
+              href={`tel:${company.phoneRaw2}`}
+              className="text-xs text-stone-400 hover:text-accent transition-colors whitespace-nowrap"
+            >
+              {company.phone2}
+            </a>
+          </div>
           <Link
             href="/contacts#form"
             className="px-4 py-2 rounded text-sm font-semibold bg-accent text-white hover:bg-accent-dark transition-colors whitespace-nowrap"
           >
-            Запросить КП
+            Запросить цену
           </Link>
         </div>
 
@@ -95,12 +124,18 @@ export default function Header() {
             >
               {company.phone}
             </a>
+            <a
+              href={`tel:${company.phoneRaw2}`}
+              className="text-sm text-stone-400 hover:text-accent transition-colors"
+            >
+              {company.phone2}
+            </a>
             <Link
               href="/contacts#form"
               className="inline-flex justify-center px-4 py-2 rounded text-sm font-semibold bg-accent text-white hover:bg-accent-dark transition-colors"
               onClick={() => setMenuOpen(false)}
             >
-              Запросить КП
+              Запросить цену
             </Link>
           </div>
         </div>

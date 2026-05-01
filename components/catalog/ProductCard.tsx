@@ -54,7 +54,7 @@ export default function ProductCard({ product }: ProductCardProps) {
           href={`/contacts#form`}
           className="mt-auto inline-flex items-center justify-center rounded bg-accent px-4 py-2 text-sm font-medium text-white transition-opacity hover:opacity-90"
         >
-          Запросить прайс
+          Запросить цену
         </Link>
       </div>
     </div>
