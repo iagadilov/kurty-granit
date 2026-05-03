@@ -30,8 +30,29 @@ export default function Hero() {
         </h1>
 
         <p className="mx-auto mt-6 max-w-2xl text-lg text-white/80 leading-relaxed">
-          ТОО «Курты Гранит» — прямой производитель. Добыча и обработка гранита с 2015 года. 100% казахстанское производство.
+          ТОО «Курты Гранит» — прямой производитель. Добыча и обработка гранита с 2015 года.
         </p>
+
+        {/* KZ accent badge */}
+        <div className="relative mx-auto mt-8 inline-flex max-w-full items-center gap-3 rounded-full border-2 border-accent bg-stone-950/60 px-5 py-2.5 backdrop-blur-sm sm:gap-4 sm:px-7 sm:py-3">
+          <Image
+            src="/kz-flag.svg"
+            alt="Флаг Казахстана"
+            width={48}
+            height={24}
+            className="h-5 w-10 rounded-sm ring-1 ring-stone-700 sm:h-6 sm:w-12"
+          />
+          <span className="text-base font-bold uppercase tracking-wider text-accent sm:text-lg">
+            100% казахстанское производство
+          </span>
+          <Image
+            src="/kz-stamp.svg"
+            alt="Штамп: 100% Qazaqtiki"
+            width={64}
+            height={64}
+            className="hidden h-14 w-14 sm:block"
+          />
+        </div>
 
         <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
           <Link

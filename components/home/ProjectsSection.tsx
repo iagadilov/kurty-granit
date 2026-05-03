@@ -8,9 +8,9 @@ const projects = [
     caption: 'Памятник Кунаеву, Тараз',
   },
   {
-    src: '/projects/police-memorial-petropavlovsk.jpg',
-    alt: 'Памятник погибшим полицейским, Северный Казахстан',
-    caption: 'Памятник погибшим полицейским, Северный Казахстан',
+    src: '/projects/police-memorial-pavlodar.jpg',
+    alt: 'Памятник погибшим полицейским, Павлодар',
+    caption: 'Памятник погибшим полицейским, Павлодар',
   },
   {
     src: '/projects/gandhi-astana.jpeg',
@@ -19,13 +19,13 @@ const projects = [
   },
   {
     src: '/projects/greenline-astana.jpg',
-    alt: 'Проект GreenLine, Астана',
-    caption: 'Проект GreenLine, Астана',
+    alt: 'Новый бульвар Greenline, Астана',
+    caption: 'Бульвар Greenline, Астана',
   },
   {
     src: '/projects/medeu-almaty.jpg',
-    alt: 'Гранитный бордюр, Медеу',
-    caption: 'Бордюр, Медеу',
+    alt: 'Гранитный бордюр, Медеу, Алматы',
+    caption: 'Бордюр, Медеу, Алматы',
   },
 ];
 
@@ -35,8 +35,8 @@ export default function ProjectsSection() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-12">
           <SectionTitle
-            title="Реализованные объекты"
-            subtitle="Наш гранит — в знаковых проектах России и Казахстана"
+            title="Куртинский гранит в знаковых проектах Казахстана и СНГ"
+            subtitle="Площади, скверы, жилые комплексы, набережные, мемориалы"
           />
         </div>
 

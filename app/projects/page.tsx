@@ -4,9 +4,9 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import SectionTitle from '@/components/ui/SectionTitle';
 
 export const metadata: Metadata = {
-  title: 'Реализованные объекты',
+  title: 'Куртинский гранит в знаковых проектах Казахстана и СНГ',
   description:
-    'Куртинский гранит в знаковых проектах России и Казахстана. Площади, скверы, жилые комплексы, набережные.',
+    'Куртинский гранит в знаковых проектах Казахстана и СНГ. Площади, скверы, жилые комплексы, набережные, мемориалы.',
 };
 
 const projects = [
@@ -15,8 +15,8 @@ const projects = [
     label: 'Памятник Динмухамеду Кунаеву, Тараз',
   },
   {
-    src: '/projects/police-memorial-petropavlovsk.jpg',
-    label: 'Памятник погибшим полицейским, Северный Казахстан',
+    src: '/projects/police-memorial-pavlodar.jpg',
+    label: 'Памятник погибшим полицейским, Павлодар',
   },
   {
     src: '/projects/gandhi-astana.jpeg',
@@ -24,11 +24,11 @@ const projects = [
   },
   {
     src: '/projects/greenline-astana.jpg',
-    label: 'Проект GreenLine, Астана',
+    label: 'Новый бульвар Greenline, Астана',
   },
   {
     src: '/projects/medeu-almaty.jpg',
-    label: 'Гранитный бордюр, Медеу',
+    label: 'Гранитный бордюр, Медеу, Алматы',
   },
 ];
 
@@ -40,8 +40,8 @@ export default function ProjectsPage() {
 
         <div className="mt-8 mb-12">
           <SectionTitle
-            title="Реализованные объекты"
-            subtitle="Куртинский гранит в знаковых проектах России и Казахстана"
+            title="Куртинский гранит в знаковых проектах Казахстана и СНГ"
+            subtitle="Площади, скверы, жилые комплексы, набережные, мемориалы"
           />
         </div>
 

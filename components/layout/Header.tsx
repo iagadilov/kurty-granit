@@ -41,8 +41,17 @@ export default function Header() {
             <span className="text-xl font-bold leading-none text-accent tracking-wide">
               КУРТЫ ГРАНИТ
             </span>
-            <span className="text-[10px] text-stone-400 leading-tight mt-0.5 tracking-wide">
-              🇰🇿 100% KZ производство
+            <span className="mt-1 inline-flex items-center gap-1.5 leading-tight">
+              <Image
+                src="/kz-flag.svg"
+                alt="Флаг Казахстана"
+                width={24}
+                height={12}
+                className="rounded-[1px] ring-1 ring-stone-700"
+              />
+              <span className="text-xs font-semibold tracking-wide text-stone-50">
+                100% QaZaQtiki
+              </span>
             </span>
           </div>
         </Link>

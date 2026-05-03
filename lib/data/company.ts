@@ -17,7 +17,9 @@ export const company = {
   },
   stats: [
     { value: '300+', unit: 'м³/сутки', label: 'Добыча блоков' },
-    { value: '90 000', unit: 'м²/мес', label: 'Производство плиты' },
+    { value: '20 000', unit: 'м²/мес', label: 'Производство плиты' },
+    { value: '5 000', unit: 'м²/мес', label: 'Производство брусчатки' },
+    { value: '9 000', unit: 'п/м/мес', label: 'Производство бордюров' },
     { value: '20 млн', unit: 'м³', label: 'Запасы гранита' },
     { value: 'с 2015', unit: 'года', label: 'Основание' },
   ],
@@ -38,7 +40,7 @@ export const company = {
       icon: 'truck',
     },
     {
-      title: '100% KZ производство',
+      title: '100% QaZaQtiki',
       description: '100% қазақстандық өндіріс — собственная добыча и переработка гранита',
       icon: 'flag',
     },

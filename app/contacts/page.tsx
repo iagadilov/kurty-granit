@@ -96,11 +96,11 @@ export default function ContactsPage() {
           <h2 className="mb-4 text-2xl font-bold text-stone-50">На карте</h2>
           <div className="overflow-hidden rounded-lg border border-stone-800">
             <iframe
-              src="https://yandex.ru/map-widget/v1/?ll=76.849600%2C43.238949&z=12"
+              src="https://yandex.ru/map-widget/v1/?ll=76.304970%2C43.676318&z=14&pt=76.304970%2C43.676318%2Cpm2rdm"
               width="100%"
               height="400"
               frameBorder="0"
-              title="Карта"
+              title="Карта — производственная база ТОО «Курты Гранит», станция Казыбек Бек"
               className="block"
             />
           </div>

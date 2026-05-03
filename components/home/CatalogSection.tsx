@@ -10,18 +10,16 @@ export default function CatalogSection() {
         <div className="mb-12">
           <SectionTitle
             title="Наша продукция"
-            subtitle="5 категорий изделий из куртинского гранита"
+            subtitle="6 категорий изделий из куртинского гранита"
           />
         </div>
 
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {categories.map((category, index) => (
+          {categories.map((category) => (
             <Link
               key={category.slug}
               href={`/catalog/${category.slug}`}
-              className={`group relative overflow-hidden rounded-lg${
-                index === 3 ? ' lg:col-start-1' : ''
-              }${index === 4 ? ' sm:col-span-2 lg:col-span-1 lg:col-start-2' : ''}`}
+              className="group relative overflow-hidden rounded-lg"
             >
               {/* Image container */}
               <div className="relative aspect-[4/3]">

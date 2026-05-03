@@ -55,45 +55,6 @@ export const products: Product[] = [
     advantages: 'Стандартный модульный размер — в наличии на складе, минимальные сроки поставки.',
   },
   {
-    slug: 'plita-shlifovannaya-300-600-20',
-    categorySlug: 'granitnye-plity',
-    name: 'Плита шлифованная 300×600×20',
-    images: [
-      'https://kurty.kz/assets/cache_image/media/6-shifovannyy-granit_2000x2000_584.jpg',
-      'https://kurty.kz/assets/cache_image/media/5-shifovannyy-granit_2000x2000_584.jpg',
-      'https://kurty.kz/assets/cache_image/media/4-shifovannyy-granit_2000x2000_584.jpg',
-    ],
-    description: 'Шлифованная гранитная плита 300×600×20 мм. Матовая поверхность с ровной фактурой.',
-    specs: [
-      { label: 'Размер', value: '300×600 мм' },
-      { label: 'Толщина', value: '20 мм' },
-      { label: 'Обработка', value: 'Шлифованная' },
-      { label: 'Морозостойкость', value: 'F50' },
-      { label: 'Вес 1 м²', value: '54 кг' },
-    ],
-    applications: 'Напольное покрытие, лестницы, открытые площадки.',
-    advantages: 'Нескользкая матовая поверхность, безопасна для пола и лестниц.',
-  },
-  {
-    slug: 'plita-pilenaya-300-600-20',
-    categorySlug: 'granitnye-plity',
-    name: 'Плита пиленая 300×600×20',
-    images: [
-      'https://kurty.kz/assets/cache_image/media/cat/2016-12-10%2022.12.46%20(1)_2000x2000_584.jpg',
-      'https://kurty.kz/assets/cache_image/media/cat/2016-12-10%2022.11.17%20(1)_2000x2000_584.jpg',
-      'https://kurty.kz/assets/cache_image/media/cat/2016-12-10%2022.16.16%20(1)_2000x2000_584.jpg',
-    ],
-    description: 'Пиленая гранитная плита 300×600×20 мм. Поверхность после пиления — ровная матовая.',
-    specs: [
-      { label: 'Размер', value: '300×600 мм' },
-      { label: 'Толщина', value: '20 мм' },
-      { label: 'Обработка', value: 'Пиленая' },
-      { label: 'Морозостойкость', value: 'F50' },
-    ],
-    applications: 'Черновая облицовка, основа под дальнейшую обработку, фундаменты.',
-    advantages: 'Минимальная цена среди плит стандартного формата.',
-  },
-  {
     slug: 'plita-polirovannaya-600-600-20',
     categorySlug: 'granitnye-plity',
     name: 'Плита полированная 600×600×20',
@@ -136,28 +97,6 @@ export const products: Product[] = [
     advantages: 'Максимальный формат с минимальным количеством стыков.',
   },
   {
-    slug: 'plita-polirovannaya-1000-600-30',
-    categorySlug: 'granitnye-plity',
-    name: 'Плита полированная 1000×600×30',
-    images: [
-      'https://kurty.kz/assets/cache_image/media/2-polirovannye-i-plity-bolshih-razmerov_2000x2000_584.jpg',
-      'https://kurty.kz/assets/cache_image/media/1-polirovannye-i-plity-bolshih-razmerov_2000x2000_584.jpg',
-      'https://kurty.kz/assets/cache_image/media/3-polirovannye-i-plity-bolshih-razmerov_2000x2000_584.jpg',
-      'https://kurty.kz/assets/cache_image/media/4-polirovannye-i-plity-bolshih-razmerov_2000x2000_584.jpg',
-      'https://kurty.kz/assets/cache_image/media/5-polirovannye-i-plity-bolshih-razmerov_2000x2000_584.jpg',
-    ],
-    description: 'Плита большого формата 1000×600×30 мм. Увеличенная толщина для нагруженных поверхностей.',
-    specs: [
-      { label: 'Размер', value: '1000×600 мм' },
-      { label: 'Толщина', value: '30 мм' },
-      { label: 'Обработка', value: 'Полированная' },
-      { label: 'Морозостойкость', value: 'F50' },
-      { label: 'Вес 1 м²', value: '81 кг' },
-    ],
-    applications: 'Мощение придомовых территорий, парковок, нагруженных площадок.',
-    advantages: 'Повышенная прочность за счёт толщины 30 мм.',
-  },
-  {
     slug: 'plita-termoobrabotannaya-20',
     categorySlug: 'granitnye-plity',
     name: 'Плита термообработанная 20 мм',
@@ -197,47 +136,6 @@ export const products: Product[] = [
     ],
     applications: 'Мощение придомовых территорий, тротуаров, площадей.',
     advantages: 'Шероховатая поверхность обеспечивает высокое сцепление — безопасна в любую погоду.',
-  },
-  {
-    slug: 'plita-termoobrabotannaya-50',
-    categorySlug: 'granitnye-plity',
-    name: 'Плита термообработанная 50 мм',
-    images: [
-      'https://kurty.kz/assets/cache_image/media/cat/IMG_2975_2000x2000_584.jpg',
-      'https://kurty.kz/assets/cache_image/media/5-termoobrabotannyy-granit_2000x2000_584.jpg',
-      'https://kurty.kz/assets/cache_image/media/8-termoobrabotannyy-granit_2000x2000_584.jpg',
-    ],
-    description: 'Термообработанная гранитная плита толщиной 50 мм. Для городского благоустройства.',
-    specs: [
-      { label: 'Толщина', value: '50 мм' },
-      { label: 'Обработка', value: 'Термообработанная' },
-      { label: 'Применение', value: 'Городское благоустройство, парковки' },
-      { label: 'Морозостойкость', value: 'F50' },
-      { label: 'Вес 1 м²', value: '135 кг' },
-    ],
-    applications: 'Городское благоустройство, мощение парковок.',
-    advantages: 'Высокая несущая способность, выдерживает нагрузки транспорта.',
-  },
-  {
-    slug: 'plita-termoobrabotannaya-80',
-    categorySlug: 'granitnye-plity',
-    name: 'Плита термообработанная 80 мм',
-    images: [
-      'https://kurty.kz/assets/cache_image/media/cat/IMG_3380_2000x2000_584.jpg',
-      'https://kurty.kz/assets/cache_image/media/5-termoobrabotannyy-granit_2000x2000_584.jpg',
-      'https://kurty.kz/assets/cache_image/media/8-termoobrabotannyy-granit_2000x2000_584.jpg',
-      'https://kurty.kz/assets/cache_image/media/10-termoobrabotannyy-granit_2000x2000_584.jpg',
-    ],
-    description: 'Термообработанная гранитная плита толщиной 80 мм. Для проезжей части и нагруженных зон.',
-    specs: [
-      { label: 'Толщина', value: '80 мм' },
-      { label: 'Обработка', value: 'Термообработанная' },
-      { label: 'Применение', value: 'Мощение проезжей части' },
-      { label: 'Морозостойкость', value: 'F50' },
-      { label: 'Вес 1 м²', value: '216 кг' },
-    ],
-    applications: 'Мощение проезжей части, нагруженных транспортных зон.',
-    advantages: 'Максимальная прочность для проезжей части — выдерживает многотонные нагрузки.',
   },
   {
     slug: 'plita-polirovannaya-30mm',
@@ -520,7 +418,7 @@ export const products: Product[] = [
     description: 'Гранитный бордюр ГП-1 сечением 300×150 мм, произвольная длина. Вес погонного метра — 122 кг.',
     specs: [
       { label: 'Сечение', value: '300×150 мм' },
-      { label: 'Длина', value: 'произвольная' },
+      { label: 'Длина', value: 'L (произвольная)' },
       { label: 'Вес 1 п.м.', value: '122 кг' },
       { label: 'В вагоне 68т', value: '550 п.м.' },
       { label: 'В фуре 22т', value: '160 п.м.' },
@@ -544,7 +442,7 @@ export const products: Product[] = [
     description: 'Гранитный бордюр ГП-2 сечением 400×180 мм. Вес погонного метра — 195 кг.',
     specs: [
       { label: 'Сечение', value: '400×180 мм' },
-      { label: 'Длина', value: 'произвольная' },
+      { label: 'Длина', value: 'L (произвольная)' },
       { label: 'Вес 1 п.м.', value: '195 кг' },
       { label: 'В вагоне 68т', value: '340 п.м.' },
       { label: 'В фуре 22т', value: '100 п.м.' },
@@ -567,7 +465,7 @@ export const products: Product[] = [
     description: 'Гранитный бордюр ГП-3 сечением 600×200 мм. Крупный бордюр для городских магистралей.',
     specs: [
       { label: 'Сечение', value: '600×200 мм' },
-      { label: 'Длина', value: 'произвольная' },
+      { label: 'Длина', value: 'L (произвольная)' },
       { label: 'Вес 1 п.м.', value: '325 кг' },
       { label: 'В вагоне 68т', value: '210 п.м.' },
       { label: 'В фуре 22т', value: '60 п.м.' },
@@ -589,7 +487,7 @@ export const products: Product[] = [
     description: 'Гранитный бордюр ГП-4 сечением 200×100 мм. Малый бордюр для садовых дорожек.',
     specs: [
       { label: 'Сечение', value: '200×100 мм' },
-      { label: 'Длина', value: 'произвольная' },
+      { label: 'Длина', value: 'L (произвольная)' },
       { label: 'Вес 1 п.м.', value: '55 кг' },
       { label: 'В вагоне 68т', value: '1200 п.м.' },
       { label: 'В фуре 22т', value: '380 п.м.' },
@@ -610,7 +508,7 @@ export const products: Product[] = [
     specs: [
       { label: 'Ширина', value: '400 мм' },
       { label: 'Толщина', value: '20 мм' },
-      { label: 'Длина', value: 'произвольная' },
+      { label: 'Длина', value: 'L (произвольная)' },
       { label: 'Обработка', value: 'Термообработанная' },
     ],
     applications: 'Ступени, пороги, декоративные полосы в мощении.',
@@ -627,7 +525,7 @@ export const products: Product[] = [
     specs: [
       { label: 'Ширина', value: '600 мм' },
       { label: 'Толщина', value: '30 мм' },
-      { label: 'Длина', value: 'произвольная' },
+      { label: 'Длина', value: 'L (произвольная)' },
       { label: 'Обработка', value: 'Полированная' },
     ],
     applications: 'Столешницы, облицовка барных стоек, декоративные элементы.',
@@ -644,7 +542,7 @@ export const products: Product[] = [
     specs: [
       { label: 'Ширина', value: '600 мм' },
       { label: 'Толщина', value: '30 мм' },
-      { label: 'Длина', value: 'произвольная' },
+      { label: 'Длина', value: 'L (произвольная)' },
       { label: 'Обработка', value: 'Термообработанная' },
     ],
     applications: 'Ступени, площадки, наружная облицовка.',
@@ -826,7 +724,6 @@ export interface CategoryVariants {
 const cleanMm = (v: string) => v.replace(/\s*мм\s*$/i, '').trim();
 
 const finishNotes: Record<string, string> = {
-  'granitnye-plity': 'и все такие же размеры с толщиной 30–100 мм, и другие — на заказ',
   'granitnaja-bruschatka': 'и другие размеры с толщиной 30, 50, 100 мм — на заказ',
 };
 
