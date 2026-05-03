@@ -34,7 +34,7 @@ export default function Hero() {
         </p>
 
         {/* KZ accent badge */}
-        <div className="relative mx-auto mt-8 inline-flex max-w-full items-center gap-3 rounded-full border-2 border-accent bg-stone-950/60 px-5 py-2.5 backdrop-blur-sm sm:gap-4 sm:px-7 sm:py-3">
+        <div className="relative mx-auto mt-8 inline-flex max-w-full items-center gap-3 rounded-full border-2 border-accent bg-stone-950/60 px-5 py-2.5 backdrop-blur-sm sm:gap-4 sm:px-7 sm:py-3 sm:pr-24">
           <Image
             src="/kz-flag.svg"
             alt="Флаг Казахстана"
@@ -45,12 +45,13 @@ export default function Hero() {
           <span className="text-base font-bold uppercase tracking-wider text-accent sm:text-lg">
             100% казахстанское производство
           </span>
+          {/* Stamp — overlaps the badge corner like a real ink stamp */}
           <Image
             src="/kz-stamp.svg"
-            alt="Штамп: 100% Qazaqtiki"
-            width={64}
-            height={64}
-            className="hidden h-14 w-14 sm:block"
+            alt="Штамп: ГОСТ 9479-2011, Қазақстан өндірісі"
+            width={160}
+            height={160}
+            className="absolute -right-6 -top-10 hidden h-32 w-32 drop-shadow-[0_2px_6px_rgba(0,0,0,0.6)] sm:block"
           />
         </div>
 
