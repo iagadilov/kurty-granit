@@ -137,28 +137,6 @@ export const products: Product[] = [
     applications: 'Мощение придомовых территорий, тротуаров, площадей.',
     advantages: 'Шероховатая поверхность обеспечивает высокое сцепление — безопасна в любую погоду.',
   },
-  {
-    slug: 'plita-polirovannaya-30mm',
-    categorySlug: 'granitnye-plity',
-    name: 'Плита полированная 30 мм (произвольный размер)',
-    images: [
-      'https://kurty.kz/assets/cache_image/media/1_060918_0_2000x2000_584.jpg',
-      'https://kurty.kz/assets/cache_image/media/1-polirovannye-i-plity-bolshih-razmerov_2000x2000_584.jpg',
-      'https://kurty.kz/assets/cache_image/media/2-polirovannye-i-plity-bolshih-razmerov_2000x2000_584.jpg',
-      'https://kurty.kz/assets/cache_image/media/cat/2016-12-10%2022.12.46%20(1)_2000x2000_584.jpg',
-      'https://kurty.kz/assets/cache_image/media/cat/2016-12-10%2022.16.16%20(1)_2000x2000_584.jpg',
-    ],
-    description: 'Полированная гранитная плита толщиной 30 мм. Доступны размеры: 30×60×30, 30×150×30, 200×200×30.',
-    specs: [
-      { label: 'Толщина', value: '30 мм' },
-      { label: 'Обработка', value: 'Полированная' },
-      { label: 'Варианты размеров', value: '30×60, 30×150, 200×200 см' },
-      { label: 'Морозостойкость', value: 'F50' },
-      { label: 'Вес 1 м²', value: '81 кг' },
-    ],
-    applications: 'Мощение придомовых территорий, парковок, тротуаров.',
-    advantages: 'Повышенная прочность по сравнению с 20 мм. Глянцевая поверхность для декоративных целей.',
-  },
 
   // ГРАНИТНАЯ БРУСЧАТКА (12 products)
   {
@@ -495,6 +473,44 @@ export const products: Product[] = [
     applications: 'Садовые дорожки, парковые зоны, придомовое благоустройство.',
     advantages: 'Компактный размер, лёгкий монтаж, экономичная логистика.',
   },
+  {
+    slug: 'bordyur-gp-5',
+    categorySlug: 'granitnye-bordjury',
+    name: 'Бордюр ГП-5 (200×80×L)',
+    images: [
+      'https://kurty.kz/assets/cache_image/media/1-bordyury_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/2-bordyury_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/3-bordyury_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/4-bordyury_2000x2000_584.jpg',
+    ],
+    description: 'Гранитный бордюр ГП-5 сечением 200×80 мм. Облегчённый вариант для пешеходных зон.',
+    specs: [
+      { label: 'Сечение', value: '200×80 мм' },
+      { label: 'Длина', value: 'L (произвольная)' },
+      { label: 'Обработка', value: 'Пиленый' },
+    ],
+    applications: 'Пешеходные зоны, парковые дорожки, придомовые территории.',
+    advantages: 'Меньшая высота — удобен там, где перепад уровней минимальный.',
+  },
+  {
+    slug: 'bordyur-gp-6',
+    categorySlug: 'granitnye-bordjury',
+    name: 'Бордюр ГП-6 (200×150×L)',
+    images: [
+      'https://kurty.kz/assets/cache_image/media/1-bordyury_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/2-bordyury_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/4-bordyury_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/5-bordyury_2000x2000_584.jpg',
+    ],
+    description: 'Гранитный бордюр ГП-6 сечением 200×150 мм. Усиленный вариант для городских дорог.',
+    specs: [
+      { label: 'Сечение', value: '200×150 мм' },
+      { label: 'Длина', value: 'L (произвольная)' },
+      { label: 'Обработка', value: 'Пиленый' },
+    ],
+    applications: 'Городские дороги, тротуары, разделение проезжей части и газона.',
+    advantages: 'Увеличенная высота — надёжная защита края дороги.',
+  },
 
   // ЗАГОТОВКИ (9 products)
   {
@@ -653,7 +669,57 @@ export const products: Product[] = [
     advantages: 'Изготовление под любые размеры проекта.',
   },
 
-  // БЛОКИ (2 products)
+  // БЛОКИ (5 products — гранитные блоки + облицовочная плита скала)
+  {
+    slug: 'blok-kurty-1-kategoriya',
+    categorySlug: 'bloki',
+    name: 'Блоки Курты — 1 категория',
+    images: [
+      'https://kurty.kz/assets/cache_image/media/bloxs/dsc-00013_2000x2000_584.jpg',
+    ],
+    description: 'Гранитные блоки 1 категории. Монолитные блоки из куртинского гранита, добытые открытым способом. Подходят для последующей распиловки и изготовления любых изделий.',
+    specs: [
+      { label: 'Объём', value: 'от 2 м³ до 6 м³' },
+      { label: 'Обработка', value: 'Пиленно-колотый' },
+      { label: 'Категория', value: '1 (премиум)' },
+      { label: 'Цвет', value: 'Светлый / Тёмный' },
+    ],
+    applications: 'Производство гранитных изделий: плиты, брусчатка, бордюры, памятники, скульптуры.',
+    advantages: 'Блоки первой категории — минимальные трещины, максимальный выход готовой продукции.',
+  },
+  {
+    slug: 'blok-kurty-2-kategoriya',
+    categorySlug: 'bloki',
+    name: 'Блоки Курты — 2 категория',
+    images: [
+      'https://kurty.kz/assets/cache_image/media/bloxs/dsc-00013_2000x2000_584.jpg',
+    ],
+    description: 'Гранитные блоки 2 категории из куртинского месторождения. Оптимальное соотношение цены и качества.',
+    specs: [
+      { label: 'Объём', value: 'от 2 м³ до 6 м³' },
+      { label: 'Обработка', value: 'Пиленно-колотый' },
+      { label: 'Категория', value: '2 (стандарт)' },
+      { label: 'Цвет', value: 'Светлый / Тёмный' },
+    ],
+    applications: 'Производство стандартных гранитных изделий, строительство.',
+    advantages: 'Экономичный вариант для крупных объёмов производства.',
+  },
+  {
+    slug: 'blok-zakaz',
+    categorySlug: 'bloki',
+    name: 'Заказные блоки',
+    images: [
+      'https://kurty.kz/assets/cache_image/media/bloxs/dsc-00013_2000x2000_584.jpg',
+    ],
+    description: 'Гранитные блоки нестандартных размеров, изготовленные по индивидуальному заказу. Размеры и объём согласовываются индивидуально.',
+    specs: [
+      { label: 'Объём', value: 'по запросу' },
+      { label: 'Размеры', value: 'под заказ' },
+      { label: 'Обработка', value: 'Пиленно-колотый' },
+    ],
+    applications: 'Специализированные строительные проекты, нестандартные изделия.',
+    advantages: 'Любые габариты под конкретный проект — изготовим по чертежу.',
+  },
   {
     slug: 'oblicovochnaya-plita-skala-20',
     categorySlug: 'bloki',
@@ -727,15 +793,46 @@ const finishNotes: Record<string, string> = {
   'granitnaja-bruschatka': 'и другие размеры с толщиной 30, 50, 100 мм — на заказ',
 };
 
+// Для категорий с фиксированным набором размеров — задаём явно,
+// чтобы не зависеть от того, как именно прописаны specs у каждого товара.
+const hardcodedSizes: Record<string, string[]> = {
+  'granitnye-plity': [
+    '300×300×20',
+    '300×600×20',
+    '600×600×20',
+    '1000×600×20',
+    '300×300×30',
+    '300×600×30',
+    '600×600×30',
+    '1000×600×30',
+  ],
+};
+
 export function getCategoryVariants(categorySlug: string): CategoryVariants {
   const items = products.filter(p => p.categorySlug === categorySlug);
-  const sizes = new Set<string>();
   const finishesMap = new Map<string, string>();
 
   for (const product of items) {
+    const finishSpec = product.specs.find(s => s.label === 'Обработка')?.value;
+    if (finishSpec && !finishesMap.has(finishSpec)) {
+      finishesMap.set(finishSpec, product.images[0]);
+    }
+  }
+
+  // Если для категории задан явный список размеров — используем его.
+  if (hardcodedSizes[categorySlug]) {
+    return {
+      sizes: hardcodedSizes[categorySlug],
+      finishes: Array.from(finishesMap.entries()).map(([name, image]) => ({ name, image })),
+      note: finishNotes[categorySlug],
+    };
+  }
+
+  // Иначе — извлекаем размеры из specs товаров динамически.
+  const sizes = new Set<string>();
+  for (const product of items) {
     const sizeSpec = product.specs.find(s => s.label === 'Размер')?.value;
     const thicknessSpec = product.specs.find(s => s.label === 'Толщина')?.value;
-    const finishSpec = product.specs.find(s => s.label === 'Обработка')?.value;
     const sectionSpec = product.specs.find(s => s.label === 'Сечение')?.value;
 
     if (sectionSpec) {
@@ -746,10 +843,6 @@ export function getCategoryVariants(categorySlug: string): CategoryVariants {
       sizes.add(cleanMm(sizeSpec));
     } else if (thicknessSpec) {
       sizes.add(`толщина ${cleanMm(thicknessSpec)} мм`);
-    }
-
-    if (finishSpec && !finishesMap.has(finishSpec)) {
-      finishesMap.set(finishSpec, product.images[0]);
     }
   }
 
