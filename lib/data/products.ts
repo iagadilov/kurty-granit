@@ -144,7 +144,7 @@ export const products: Product[] = [
     categorySlug: 'granitnaja-bruschatka',
     name: 'Брусчатка 100×100×30',
     images: [
-      'https://kurty.kz/assets/cache_image/media/cat/%20100-100-50_2000x2000_584.jpg',
+      '/catalog/bruschatka-termo.jpg',
       'https://kurty.kz/assets/cache_image/media/cat/IMG_6623_2000x2000_584.jpg',
       'https://kurty.kz/assets/cache_image/media/4-bruschatka_2000x2000_584.jpg',
       'https://kurty.kz/assets/cache_image/media/1-bruschatka_2000x2000_584.jpg',
