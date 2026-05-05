@@ -58,7 +58,14 @@ export default async function CategoryPage({ params }: PageProps) {
               {/* Sizes */}
               {variants.sizes.length > 0 && (
                 <div>
-                  <h2 className="mb-5 text-xl font-bold text-stone-50">Варианты размеров</h2>
+                  <h2 className="mb-3 text-xl font-bold text-stone-50">Варианты размеров</h2>
+                  {variants.sizeIntro && (
+                    <div className="mb-4 space-y-0.5">
+                      {variants.sizeIntro.map((line) => (
+                        <p key={line} className="text-sm text-stone-400">{line}</p>
+                      ))}
+                    </div>
+                  )}
                   <ul className="grid grid-cols-1 gap-x-8 gap-y-2.5 sm:grid-cols-2">
                     {variants.sizes.map((size) => (
                       <li key={size} className="flex items-center gap-2.5 text-stone-300">
