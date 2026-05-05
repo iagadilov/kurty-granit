@@ -791,9 +791,7 @@ export interface CategoryVariants {
 
 const cleanMm = (v: string) => v.replace(/\s*мм\s*$/i, '').trim();
 
-const finishNotes: Record<string, string> = {
-  'granitnaja-bruschatka': 'и другие размеры с толщиной 30, 50, 100 мм — на заказ',
-};
+const finishNotes: Record<string, string> = {};
 
 // Для категорий с фиксированным набором размеров — задаём явно,
 // чтобы не зависеть от того, как именно прописаны specs у каждого товара.
