@@ -68,7 +68,7 @@ export default async function CategoryPage({ params }: PageProps) {
                   )}
                   <ul className="grid grid-cols-1 gap-x-8 gap-y-2.5 sm:grid-cols-2">
                     {variants.sizes.map((size) => (
-                      <li key={size} className="flex items-center gap-2.5 text-stone-100">
+                      <li key={size} className="flex items-center gap-2.5 text-white font-medium">
                         <span className="block h-2 w-2 rotate-45 bg-accent shrink-0" />
                         <span>{size}</span>
                       </li>
