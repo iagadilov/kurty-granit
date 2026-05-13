@@ -814,8 +814,8 @@ const hardcodedSizes: Record<string, string[]> = {
 const hardcodedFinishes: Record<string, { name: string; image: string }[]> = {
   // Заготовки: только Термообработанная и Полированная (без шлифованной/пиленой)
   'zagotovki': [
-    { name: 'Термообработанная', image: '/catalog/plita-termo-1.jpg' },
-    { name: 'Полированная', image: '/catalog/plita-polirovannaya-close.jpg' },
+    { name: 'Термообработанная', image: '/catalog/zagotovka-2.jpg' },
+    { name: 'Полированная', image: '/catalog/zagotovka-4.jpg' },
   ],
   // Брусчатка: фаска / без фаски (вместо «Пиленый»)
   'granitnaja-bruschatka': [
