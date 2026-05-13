@@ -791,7 +791,9 @@ export interface CategoryVariants {
 
 const cleanMm = (v: string) => v.replace(/\s*мм\s*$/i, '').trim();
 
-const finishNotes: Record<string, string> = {};
+const finishNotes: Record<string, string> = {
+  'granitnye-bordjury': 'Тип: пиленый (стандарт). Другая обработка — под заказ.',
+};
 
 // Для категорий с фиксированным набором размеров — задаём явно,
 // чтобы не зависеть от того, как именно прописаны specs у каждого товара.
@@ -815,11 +817,30 @@ const hardcodedSizes: Record<string, string[]> = {
     'ГП 5 - 200 х 80 х L',
     'ГП 6 - 200 х 150 х L',
   ],
-  // Блоки: объём вместо размера (в прайсе только м³)
+  // Блоки: единый стандартный размер на все категории
   'bloki': [
-    'Блоки 1 категории — от 2 до 6 м³',
-    'Блоки 2 категории — от 2 до 6 м³',
+    'Блоки 1 категории — 0.750 × 1.500 × 2.500 м',
+    'Блоки 2 категории — 0.750 × 1.500 × 2.500 м',
     'Заказные блоки — по запросу',
+  ],
+  // Заготовки: одна строка про диапазон толщин
+  'zagotovki': [
+    'толщина от 20 до 100 мм',
+  ],
+};
+
+// Принудительный список обработок для категорий, где он не выводится из specs.
+// Каждый элемент — пара [имя обработки, путь к превью].
+const hardcodedFinishes: Record<string, { name: string; image: string }[]> = {
+  // Заготовки: только Термообработанная и Полированная (без шлифованной/пиленой)
+  'zagotovki': [
+    { name: 'Термообработанная', image: 'https://kurty.kz/assets/cache_image/media/catalog/products/zagotovki/polosa-polirovannaya_1_2000x2000_584.jpg' },
+    { name: 'Полированная', image: 'https://kurty.kz/assets/cache_image/media/catalog/products/zagotovki/polosa-polirovannaya-600_2000x2000_584.jpg' },
+  ],
+  // Брусчатка: фаска / без фаски (вместо «Пиленый»)
+  'granitnaja-bruschatka': [
+    { name: 'С фаской', image: '/catalog/bruschatka-termo.jpg' },
+    { name: 'Без фаски', image: '/catalog/bruschatka-termo.jpg' },
   ],
 };
 
@@ -850,11 +871,14 @@ export function getCategoryVariants(categorySlug: string): CategoryVariants {
     }
   }
 
+  const finishes = hardcodedFinishes[categorySlug]
+    ?? Array.from(finishesMap.entries()).map(([name, image]) => ({ name, image }));
+
   // Если для категории задан явный список размеров — используем его.
   if (hardcodedSizes[categorySlug]) {
     return {
       sizes: hardcodedSizes[categorySlug],
-      finishes: Array.from(finishesMap.entries()).map(([name, image]) => ({ name, image })),
+      finishes,
       note: finishNotes[categorySlug],
       sizeIntro: categorySizeIntros[categorySlug],
     };
@@ -888,7 +912,7 @@ export function getCategoryVariants(categorySlug: string): CategoryVariants {
 
   return {
     sizes: sortedSizes,
-    finishes: Array.from(finishesMap.entries()).map(([name, image]) => ({ name, image })),
+    finishes,
     note: finishNotes[categorySlug],
   };
 }
