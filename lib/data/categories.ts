@@ -17,7 +17,7 @@ export const categories: Category[] = [
   {
     slug: 'granitnaja-bruschatka',
     name: 'Гранитная брусчатка',
-    image: '/catalog/bruschatka-1.jpg',
+    image: '/catalog/bruschatka-cover.jpg',
     description: 'Для тротуаров, парковых дорожек, пешеходных зон и площадей.',
     longDescription: 'Брусчатка из куртинского гранита широко используется для укладки тротуаров, парковых дорожек, пешеходных зон, площадей, прилегающих территорий коммерческих, административных, частных объектов.',
   },
@@ -31,7 +31,7 @@ export const categories: Category[] = [
   {
     slug: 'zagotovki',
     name: 'Заготовки',
-    image: '/catalog/zagotovka-1.jpg',
+    image: '/catalog/zagotovka-cover.jpg',
     description: 'Для производства столешниц, декоративных элементов, памятников, слэбов.',
     longDescription: 'Заготовки из куртинского гранита поставляются на предприятия и в камнерезные мастерские для дальнейшей обработки. Из натурального камня изготавливают широкий спектр продукции различного назначения, включая слэбы.',
   },
@@ -56,6 +56,7 @@ export const categoryGalleries: Record<string, string[]> = {
     '/catalog/blok-3.jpg',
   ],
   'zagotovki': [
+    '/catalog/zagotovka-cover.jpg',
     '/catalog/zagotovka-2.jpg',
   ],
   'granitnaja-bruschatka': [

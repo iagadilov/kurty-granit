@@ -133,7 +133,7 @@ export const products: Product[] = [
     categorySlug: 'granitnaja-bruschatka',
     name: 'Брусчатка 100×100×30',
     images: [
-      '/catalog/bruschatka-1.jpg',
+      '/catalog/bruschatka-cover.jpg',
       '/catalog/bruschatka-2.jpg',
       '/catalog/bruschatka-3.jpg',
       '/catalog/bruschatka-4.jpg',
@@ -155,7 +155,7 @@ export const products: Product[] = [
     categorySlug: 'granitnaja-bruschatka',
     name: 'Брусчатка 100×100×50',
     images: [
-      '/catalog/bruschatka-1.jpg',
+      '/catalog/bruschatka-cover.jpg',
       '/catalog/bruschatka-2.jpg',
       '/catalog/bruschatka-3.jpg',
       '/catalog/bruschatka-4.jpg',
@@ -175,7 +175,7 @@ export const products: Product[] = [
     categorySlug: 'granitnaja-bruschatka',
     name: 'Брусчатка 100×200×30',
     images: [
-      '/catalog/bruschatka-1.jpg',
+      '/catalog/bruschatka-cover.jpg',
       '/catalog/bruschatka-2.jpg',
       '/catalog/bruschatka-3.jpg',
       '/catalog/bruschatka-4.jpg',
@@ -196,7 +196,7 @@ export const products: Product[] = [
     categorySlug: 'granitnaja-bruschatka',
     name: 'Брусчатка 100×200×50',
     images: [
-      '/catalog/bruschatka-1.jpg',
+      '/catalog/bruschatka-cover.jpg',
       '/catalog/bruschatka-2.jpg',
       '/catalog/bruschatka-3.jpg',
       '/catalog/bruschatka-4.jpg',
@@ -216,7 +216,7 @@ export const products: Product[] = [
     categorySlug: 'granitnaja-bruschatka',
     name: 'Брусчатка 200×200×30',
     images: [
-      '/catalog/bruschatka-1.jpg',
+      '/catalog/bruschatka-cover.jpg',
       '/catalog/bruschatka-2.jpg',
       '/catalog/bruschatka-3.jpg',
       '/catalog/bruschatka-4.jpg',
@@ -235,7 +235,7 @@ export const products: Product[] = [
     categorySlug: 'granitnaja-bruschatka',
     name: 'Брусчатка 200×200×50',
     images: [
-      '/catalog/bruschatka-1.jpg',
+      '/catalog/bruschatka-cover.jpg',
       '/catalog/bruschatka-2.jpg',
       '/catalog/bruschatka-3.jpg',
       '/catalog/bruschatka-4.jpg',
@@ -254,7 +254,7 @@ export const products: Product[] = [
     categorySlug: 'granitnaja-bruschatka',
     name: 'Брусчатка 200×300×30',
     images: [
-      '/catalog/bruschatka-1.jpg',
+      '/catalog/bruschatka-cover.jpg',
       '/catalog/bruschatka-2.jpg',
       '/catalog/bruschatka-3.jpg',
       '/catalog/bruschatka-4.jpg',
@@ -272,7 +272,7 @@ export const products: Product[] = [
     categorySlug: 'granitnaja-bruschatka',
     name: 'Брусчатка 200×300×50',
     images: [
-      '/catalog/bruschatka-1.jpg',
+      '/catalog/bruschatka-cover.jpg',
       '/catalog/bruschatka-2.jpg',
       '/catalog/bruschatka-3.jpg',
       '/catalog/bruschatka-4.jpg',
@@ -290,7 +290,7 @@ export const products: Product[] = [
     categorySlug: 'granitnaja-bruschatka',
     name: 'Брусчатка 200×400×30',
     images: [
-      '/catalog/bruschatka-1.jpg',
+      '/catalog/bruschatka-cover.jpg',
       '/catalog/bruschatka-2.jpg',
       '/catalog/bruschatka-3.jpg',
       '/catalog/bruschatka-4.jpg',
@@ -308,7 +308,7 @@ export const products: Product[] = [
     categorySlug: 'granitnaja-bruschatka',
     name: 'Брусчатка 200×400×50',
     images: [
-      '/catalog/bruschatka-1.jpg',
+      '/catalog/bruschatka-cover.jpg',
       '/catalog/bruschatka-2.jpg',
       '/catalog/bruschatka-3.jpg',
       '/catalog/bruschatka-4.jpg',
@@ -326,7 +326,7 @@ export const products: Product[] = [
     categorySlug: 'granitnaja-bruschatka',
     name: 'Брусчатка 300×300 (мин.)',
     images: [
-      '/catalog/bruschatka-1.jpg',
+      '/catalog/bruschatka-cover.jpg',
       '/catalog/bruschatka-2.jpg',
       '/catalog/bruschatka-3.jpg',
       '/catalog/bruschatka-4.jpg',
@@ -345,7 +345,7 @@ export const products: Product[] = [
     categorySlug: 'granitnaja-bruschatka',
     name: 'Брусчатка 100 мм',
     images: [
-      '/catalog/bruschatka-1.jpg',
+      '/catalog/bruschatka-cover.jpg',
       '/catalog/bruschatka-2.jpg',
       '/catalog/bruschatka-3.jpg',
       '/catalog/bruschatka-4.jpg',
@@ -491,7 +491,7 @@ export const products: Product[] = [
     categorySlug: 'zagotovki',
     name: 'Полоса L×400×20 термообработанная',
     images: [
-      '/catalog/zagotovka-1.jpg',
+      '/catalog/zagotovka-cover.jpg',
       '/catalog/zagotovka-2.jpg',
     ],
     description: 'Гранитная полоса шириной 400 мм, толщина 20 мм, произвольная длина. Термообработанная поверхность.',
@@ -509,7 +509,7 @@ export const products: Product[] = [
     categorySlug: 'zagotovki',
     name: 'Полоса L×600×30 полированная',
     images: [
-      '/catalog/zagotovka-1.jpg',
+      '/catalog/zagotovka-cover.jpg',
       '/catalog/zagotovka-2.jpg',
     ],
     description: 'Гранитная полоса шириной 600 мм, толщина 30 мм. Полированная поверхность.',
@@ -527,7 +527,7 @@ export const products: Product[] = [
     categorySlug: 'zagotovki',
     name: 'Полоса L×600×30 термообработанная',
     images: [
-      '/catalog/zagotovka-1.jpg',
+      '/catalog/zagotovka-cover.jpg',
       '/catalog/zagotovka-2.jpg',
     ],
     description: 'Гранитная полоса шириной 600 мм, толщина 30 мм. Термообработанная поверхность.',
@@ -544,7 +544,7 @@ export const products: Product[] = [
     categorySlug: 'zagotovki',
     name: 'Полоса L×400×20 шлифованная',
     images: [
-      '/catalog/zagotovka-1.jpg',
+      '/catalog/zagotovka-cover.jpg',
       '/catalog/zagotovka-2.jpg',
     ],
     description: 'Гранитная полоса шириной 400 мм, толщина 20 мм. Шлифованная поверхность.',
@@ -560,7 +560,7 @@ export const products: Product[] = [
     categorySlug: 'zagotovki',
     name: 'Полоса L×600×30 шлифованная',
     images: [
-      '/catalog/zagotovka-1.jpg',
+      '/catalog/zagotovka-cover.jpg',
       '/catalog/zagotovka-2.jpg',
     ],
     description: 'Гранитная полоса шириной 600 мм, толщина 30 мм. Шлифованная поверхность.',
@@ -576,7 +576,7 @@ export const products: Product[] = [
     categorySlug: 'zagotovki',
     name: 'Ступени 30 мм термообработанные',
     images: [
-      '/catalog/zagotovka-1.jpg',
+      '/catalog/zagotovka-cover.jpg',
       '/catalog/zagotovka-2.jpg',
     ],
     description: 'Гранитные ступени толщиной 30 мм с термообработанной поверхностью. Нескользкие.',
@@ -593,7 +593,7 @@ export const products: Product[] = [
     categorySlug: 'zagotovki',
     name: 'Ступени 30 мм шлифованные',
     images: [
-      '/catalog/zagotovka-1.jpg',
+      '/catalog/zagotovka-cover.jpg',
       '/catalog/zagotovka-2.jpg',
     ],
     description: 'Гранитные ступени толщиной 30 мм с шлифованной поверхностью.',
@@ -608,7 +608,7 @@ export const products: Product[] = [
     categorySlug: 'zagotovki',
     name: 'Ступени 30 мм пиленые',
     images: [
-      '/catalog/zagotovka-1.jpg',
+      '/catalog/zagotovka-cover.jpg',
       '/catalog/zagotovka-2.jpg',
     ],
     description: 'Гранитные ступени толщиной 30 мм с пиленой поверхностью. Экономичный вариант.',
@@ -624,7 +624,7 @@ export const products: Product[] = [
     categorySlug: 'zagotovki',
     name: 'Ступени-полоса',
     images: [
-      '/catalog/zagotovka-1.jpg',
+      '/catalog/zagotovka-cover.jpg',
       '/catalog/zagotovka-2.jpg',
     ],
     description: 'Гранитные заготовки в формате полосы для изготовления ступеней под заказ.',
@@ -812,7 +812,7 @@ const hardcodedFinishes: Record<string, { name: string; image: string }[]> = {
   'zagotovki': [],
   // Брусчатка: фаска / без фаски (вместо «Пиленый»)
   'granitnaja-bruschatka': [
-    { name: 'С фаской', image: '/catalog/bruschatka-1.jpg' },
+    { name: 'С фаской', image: '/catalog/bruschatka-cover.jpg' },
     { name: 'Без фаски', image: '/catalog/bruschatka-2.jpg' },
   ],
   // Бордюры: тип «Пиленый» — единственная стандартная обработка
