@@ -62,6 +62,9 @@ export const categoryGalleries: Record<string, string[]> = {
     '/catalog/bruschatka-2.jpg',
     '/catalog/bruschatka-3.jpg',
     '/catalog/bruschatka-4.jpg',
+    '/catalog/bruschatka-5.jpg',
+    '/catalog/bruschatka-6.jpg',
+    '/catalog/bruschatka-7.jpg',
   ],
   'granitnye-plity': [
     '/catalog/plita-termo-0.jpg',

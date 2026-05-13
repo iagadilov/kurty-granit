@@ -808,11 +808,8 @@ const hardcodedSizes: Record<string, string[]> = {
 // Принудительный список обработок для категорий, где он не выводится из specs.
 // Каждый элемент — пара [имя обработки, путь к превью].
 const hardcodedFinishes: Record<string, { name: string; image: string }[]> = {
-  // Заготовки: только Термообработанная и Полированная (без шлифованной/пиленой)
-  'zagotovki': [
-    { name: 'Термообработанная', image: '/catalog/zagotovka-1.jpg' },
-    { name: 'Полированная', image: '/catalog/zagotovka-2.jpg' },
-  ],
+  // Заготовки: у этой категории нет вариантов обработки — блок скрыт
+  'zagotovki': [],
   // Брусчатка: фаска / без фаски (вместо «Пиленый»)
   'granitnaja-bruschatka': [
     { name: 'С фаской', image: '/catalog/bruschatka-1.jpg' },
