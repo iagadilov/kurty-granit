@@ -10,7 +10,7 @@ export const categories: Category[] = [
   {
     slug: 'granitnye-plity',
     name: 'Гранитная плита',
-    image: '/catalog/plita-polirovannaya-close.jpg',
+    image: '/catalog/plita-polirovannaya-2.jpg',
     description: 'Для облицовки фасадов, внутренних пространств и благоустройства территорий.',
     longDescription: 'Плита из куртинского гранита в зависимости от толщины и выбранной обработки поверхности может использоваться как для облицовки фасадов, декорирования внутренних пространств помещений, так и для благоустройства придомовых территорий и проезжей части.',
   },
@@ -50,7 +50,6 @@ export const categoryGalleries: Record<string, string[]> = {
     '/catalog/bordyur-2.jpg',
     '/catalog/bordyur-3.jpg',
     '/catalog/bordyur-4.jpg',
-    '/catalog/bordyur-5.jpg',
   ],
   'bloki': [
     '/catalog/blok-2.jpg',
@@ -58,13 +57,14 @@ export const categoryGalleries: Record<string, string[]> = {
   ],
   'zagotovki': [
     '/catalog/zagotovka-2.jpg',
-    '/catalog/zagotovka-3.jpg',
-    '/catalog/zagotovka-4.jpg',
   ],
-  // Брусчатка: только cover-фото; других уникальных фото брусчатки нет
-  'granitnaja-bruschatka': [],
+  'granitnaja-bruschatka': [
+    '/catalog/bruschatka-2.jpg',
+    '/catalog/bruschatka-3.jpg',
+    '/catalog/bruschatka-4.jpg',
+  ],
   'granitnye-plity': [
-    '/catalog/plita-polirovannaya-2.jpg',
+    '/catalog/plita-termo-0.jpg',
     '/catalog/plita-termo-1.jpg',
     '/catalog/plita-termo-2.jpg',
     '/catalog/plita-termo-3.jpg',

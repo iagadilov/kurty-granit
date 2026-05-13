@@ -16,7 +16,7 @@ export const products: Product[] = [
     categorySlug: 'granitnye-plity',
     name: 'Плита полированная 300×300×20',
     images: [
-      '/catalog/plita-polirovannaya-close.jpg',
+      '/catalog/plita-polirovannaya-2.jpg',
     ],
     description: 'Полированная гранитная плита формата 300×300×20 мм. Гладкая поверхность с глянцевым блеском. Морозостойкость — не менее 50 циклов.',
     specs: [
@@ -34,7 +34,7 @@ export const products: Product[] = [
     categorySlug: 'granitnye-plity',
     name: 'Плита полированная 300×600×20',
     images: [
-      '/catalog/plita-polirovannaya-close.jpg',
+      '/catalog/plita-polirovannaya-2.jpg',
     ],
     description: 'Полированная гранитная плита формата 300×600×20 мм. Популярный формат для облицовки фасадов и внутренних пространств.',
     specs: [
@@ -52,7 +52,7 @@ export const products: Product[] = [
     categorySlug: 'granitnye-plity',
     name: 'Плита полированная 600×600×20',
     images: [
-      '/catalog/plita-polirovannaya-close.jpg',
+      '/catalog/plita-polirovannaya-2.jpg',
     ],
     description: 'Крупноформатная полированная плита 600×600×20 мм. Создаёт эффект монолитного покрытия.',
     specs: [
@@ -70,7 +70,7 @@ export const products: Product[] = [
     categorySlug: 'granitnye-plity',
     name: 'Плита полированная 1000×600×20',
     images: [
-      '/catalog/plita-polirovannaya-close.jpg',
+      '/catalog/plita-polirovannaya-2.jpg',
     ],
     description: 'Плита большого формата 1000×600×20 мм. Для масштабных облицовочных проектов.',
     specs: [
@@ -87,6 +87,7 @@ export const products: Product[] = [
     categorySlug: 'granitnye-plity',
     name: 'Плита термообработанная 20 мм',
     images: [
+      '/catalog/plita-termo-0.jpg',
       '/catalog/plita-termo-1.jpg',
       '/catalog/plita-termo-2.jpg',
       '/catalog/plita-termo-3.jpg',
@@ -109,6 +110,7 @@ export const products: Product[] = [
     categorySlug: 'granitnye-plity',
     name: 'Плита термообработанная 30 мм',
     images: [
+      '/catalog/plita-termo-0.jpg',
       '/catalog/plita-termo-1.jpg',
       '/catalog/plita-termo-2.jpg',
       '/catalog/plita-termo-3.jpg',
@@ -132,6 +134,9 @@ export const products: Product[] = [
     name: 'Брусчатка 100×100×30',
     images: [
       '/catalog/bruschatka-1.jpg',
+      '/catalog/bruschatka-2.jpg',
+      '/catalog/bruschatka-3.jpg',
+      '/catalog/bruschatka-4.jpg',
     ],
     description: 'Гранитная брусчатка 100×100×30 мм. Мелкоформатная плитка для тротуаров и дорожек.',
     specs: [
@@ -151,6 +156,9 @@ export const products: Product[] = [
     name: 'Брусчатка 100×100×50',
     images: [
       '/catalog/bruschatka-1.jpg',
+      '/catalog/bruschatka-2.jpg',
+      '/catalog/bruschatka-3.jpg',
+      '/catalog/bruschatka-4.jpg',
     ],
     description: 'Гранитная брусчатка 100×100×50 мм. Увеличенная толщина для нагруженных пешеходных зон.',
     specs: [
@@ -168,6 +176,9 @@ export const products: Product[] = [
     name: 'Брусчатка 100×200×30',
     images: [
       '/catalog/bruschatka-1.jpg',
+      '/catalog/bruschatka-2.jpg',
+      '/catalog/bruschatka-3.jpg',
+      '/catalog/bruschatka-4.jpg',
     ],
     description: 'Гранитная брусчатка 100×200×30 мм. Прямоугольный формат для классической укладки.',
     specs: [
@@ -186,6 +197,9 @@ export const products: Product[] = [
     name: 'Брусчатка 100×200×50',
     images: [
       '/catalog/bruschatka-1.jpg',
+      '/catalog/bruschatka-2.jpg',
+      '/catalog/bruschatka-3.jpg',
+      '/catalog/bruschatka-4.jpg',
     ],
     description: 'Гранитная брусчатка 100×200×50 мм. Основной формат для городского благоустройства.',
     specs: [
@@ -203,6 +217,9 @@ export const products: Product[] = [
     name: 'Брусчатка 200×200×30',
     images: [
       '/catalog/bruschatka-1.jpg',
+      '/catalog/bruschatka-2.jpg',
+      '/catalog/bruschatka-3.jpg',
+      '/catalog/bruschatka-4.jpg',
     ],
     description: 'Гранитная брусчатка 200×200×30 мм. Среднеформатная плитка для быстрой укладки.',
     specs: [
@@ -219,6 +236,9 @@ export const products: Product[] = [
     name: 'Брусчатка 200×200×50',
     images: [
       '/catalog/bruschatka-1.jpg',
+      '/catalog/bruschatka-2.jpg',
+      '/catalog/bruschatka-3.jpg',
+      '/catalog/bruschatka-4.jpg',
     ],
     description: 'Гранитная брусчатка 200×200×50 мм. Для мощения придомовых территорий и парковок.',
     specs: [
@@ -235,6 +255,9 @@ export const products: Product[] = [
     name: 'Брусчатка 200×300×30',
     images: [
       '/catalog/bruschatka-1.jpg',
+      '/catalog/bruschatka-2.jpg',
+      '/catalog/bruschatka-3.jpg',
+      '/catalog/bruschatka-4.jpg',
     ],
     description: 'Гранитная брусчатка 200×300×30 мм. Прямоугольный крупный формат.',
     specs: [
@@ -250,6 +273,9 @@ export const products: Product[] = [
     name: 'Брусчатка 200×300×50',
     images: [
       '/catalog/bruschatka-1.jpg',
+      '/catalog/bruschatka-2.jpg',
+      '/catalog/bruschatka-3.jpg',
+      '/catalog/bruschatka-4.jpg',
     ],
     description: 'Гранитная брусчатка 200×300×50 мм. Для нагруженных площадей и набережных.',
     specs: [
@@ -265,6 +291,9 @@ export const products: Product[] = [
     name: 'Брусчатка 200×400×30',
     images: [
       '/catalog/bruschatka-1.jpg',
+      '/catalog/bruschatka-2.jpg',
+      '/catalog/bruschatka-3.jpg',
+      '/catalog/bruschatka-4.jpg',
     ],
     description: 'Гранитная брусчатка 200×400×30 мм. Длинный прямоугольный формат.',
     specs: [
@@ -280,6 +309,9 @@ export const products: Product[] = [
     name: 'Брусчатка 200×400×50',
     images: [
       '/catalog/bruschatka-1.jpg',
+      '/catalog/bruschatka-2.jpg',
+      '/catalog/bruschatka-3.jpg',
+      '/catalog/bruschatka-4.jpg',
     ],
     description: 'Гранитная брусчатка 200×400×50 мм. Для нагруженных тротуаров и площадей.',
     specs: [
@@ -295,6 +327,9 @@ export const products: Product[] = [
     name: 'Брусчатка 300×300 (мин.)',
     images: [
       '/catalog/bruschatka-1.jpg',
+      '/catalog/bruschatka-2.jpg',
+      '/catalog/bruschatka-3.jpg',
+      '/catalog/bruschatka-4.jpg',
     ],
     description: 'Гранитная брусчатка минимальный размер 300×300 мм. Доступны все толщины от 20 мм.',
     specs: [
@@ -311,6 +346,9 @@ export const products: Product[] = [
     name: 'Брусчатка 100 мм',
     images: [
       '/catalog/bruschatka-1.jpg',
+      '/catalog/bruschatka-2.jpg',
+      '/catalog/bruschatka-3.jpg',
+      '/catalog/bruschatka-4.jpg',
     ],
     description: 'Гранитная брусчатка толщиной 100 мм. Для особо нагруженных дорог и площадей.',
     specs: [
@@ -455,8 +493,6 @@ export const products: Product[] = [
     images: [
       '/catalog/zagotovka-1.jpg',
       '/catalog/zagotovka-2.jpg',
-      '/catalog/zagotovka-3.jpg',
-      '/catalog/zagotovka-4.jpg',
     ],
     description: 'Гранитная полоса шириной 400 мм, толщина 20 мм, произвольная длина. Термообработанная поверхность.',
     specs: [
@@ -475,8 +511,6 @@ export const products: Product[] = [
     images: [
       '/catalog/zagotovka-1.jpg',
       '/catalog/zagotovka-2.jpg',
-      '/catalog/zagotovka-3.jpg',
-      '/catalog/zagotovka-4.jpg',
     ],
     description: 'Гранитная полоса шириной 600 мм, толщина 30 мм. Полированная поверхность.',
     specs: [
@@ -495,8 +529,6 @@ export const products: Product[] = [
     images: [
       '/catalog/zagotovka-1.jpg',
       '/catalog/zagotovka-2.jpg',
-      '/catalog/zagotovka-3.jpg',
-      '/catalog/zagotovka-4.jpg',
     ],
     description: 'Гранитная полоса шириной 600 мм, толщина 30 мм. Термообработанная поверхность.',
     specs: [
@@ -514,8 +546,6 @@ export const products: Product[] = [
     images: [
       '/catalog/zagotovka-1.jpg',
       '/catalog/zagotovka-2.jpg',
-      '/catalog/zagotovka-3.jpg',
-      '/catalog/zagotovka-4.jpg',
     ],
     description: 'Гранитная полоса шириной 400 мм, толщина 20 мм. Шлифованная поверхность.',
     specs: [
@@ -532,8 +562,6 @@ export const products: Product[] = [
     images: [
       '/catalog/zagotovka-1.jpg',
       '/catalog/zagotovka-2.jpg',
-      '/catalog/zagotovka-3.jpg',
-      '/catalog/zagotovka-4.jpg',
     ],
     description: 'Гранитная полоса шириной 600 мм, толщина 30 мм. Шлифованная поверхность.',
     specs: [
@@ -550,8 +578,6 @@ export const products: Product[] = [
     images: [
       '/catalog/zagotovka-1.jpg',
       '/catalog/zagotovka-2.jpg',
-      '/catalog/zagotovka-3.jpg',
-      '/catalog/zagotovka-4.jpg',
     ],
     description: 'Гранитные ступени толщиной 30 мм с термообработанной поверхностью. Нескользкие.',
     specs: [
@@ -569,8 +595,6 @@ export const products: Product[] = [
     images: [
       '/catalog/zagotovka-1.jpg',
       '/catalog/zagotovka-2.jpg',
-      '/catalog/zagotovka-3.jpg',
-      '/catalog/zagotovka-4.jpg',
     ],
     description: 'Гранитные ступени толщиной 30 мм с шлифованной поверхностью.',
     specs: [
@@ -586,8 +610,6 @@ export const products: Product[] = [
     images: [
       '/catalog/zagotovka-1.jpg',
       '/catalog/zagotovka-2.jpg',
-      '/catalog/zagotovka-3.jpg',
-      '/catalog/zagotovka-4.jpg',
     ],
     description: 'Гранитные ступени толщиной 30 мм с пиленой поверхностью. Экономичный вариант.',
     specs: [
@@ -604,8 +626,6 @@ export const products: Product[] = [
     images: [
       '/catalog/zagotovka-1.jpg',
       '/catalog/zagotovka-2.jpg',
-      '/catalog/zagotovka-3.jpg',
-      '/catalog/zagotovka-4.jpg',
     ],
     description: 'Гранитные заготовки в формате полосы для изготовления ступеней под заказ.',
     specs: [
@@ -790,13 +810,13 @@ const hardcodedSizes: Record<string, string[]> = {
 const hardcodedFinishes: Record<string, { name: string; image: string }[]> = {
   // Заготовки: только Термообработанная и Полированная (без шлифованной/пиленой)
   'zagotovki': [
-    { name: 'Термообработанная', image: '/catalog/zagotovka-2.jpg' },
-    { name: 'Полированная', image: '/catalog/zagotovka-4.jpg' },
+    { name: 'Термообработанная', image: '/catalog/zagotovka-1.jpg' },
+    { name: 'Полированная', image: '/catalog/zagotovka-2.jpg' },
   ],
   // Брусчатка: фаска / без фаски (вместо «Пиленый»)
   'granitnaja-bruschatka': [
     { name: 'С фаской', image: '/catalog/bruschatka-1.jpg' },
-    { name: 'Без фаски', image: '/catalog/bruschatka-1.jpg' },
+    { name: 'Без фаски', image: '/catalog/bruschatka-2.jpg' },
   ],
   // Бордюры: тип «Пиленый» — единственная стандартная обработка
   'granitnye-bordjury': [
