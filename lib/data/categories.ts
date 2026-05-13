@@ -17,7 +17,7 @@ export const categories: Category[] = [
   {
     slug: 'granitnaja-bruschatka',
     name: 'Гранитная брусчатка',
-    image: '/catalog/bruschatka-laid-1.jpg',
+    image: '/catalog/bruschatka-1.jpg',
     description: 'Для тротуаров, парковых дорожек, пешеходных зон и площадей.',
     longDescription: 'Брусчатка из куртинского гранита широко используется для укладки тротуаров, парковых дорожек, пешеходных зон, площадей, прилегающих территорий коммерческих, административных, частных объектов.',
   },
@@ -31,7 +31,7 @@ export const categories: Category[] = [
   {
     slug: 'zagotovki',
     name: 'Заготовки',
-    image: '/catalog/zagotovka-sample.jpg',
+    image: '/catalog/zagotovka-1.jpg',
     description: 'Для производства столешниц, декоративных элементов, памятников, слэбов.',
     longDescription: 'Заготовки из куртинского гранита поставляются на предприятия и в камнерезные мастерские для дальнейшей обработки. Из натурального камня изготавливают широкий спектр продукции различного назначения, включая слэбы.',
   },
@@ -55,25 +55,22 @@ export const categoryGalleries: Record<string, string[]> = {
     '/catalog/blok-2.jpg',
     '/catalog/blok-3.jpg',
   ],
-  // Заготовки — мало уникальных фото, используем близкие по смыслу полосы-сечения
   'zagotovki': [
-    '/catalog/bordyur-3.jpg',
-    '/catalog/bordyur-4.jpg',
+    '/catalog/zagotovka-2.jpg',
+    '/catalog/zagotovka-3.jpg',
+    '/catalog/zagotovka-4.jpg',
   ],
   'granitnaja-bruschatka': [
-    '/catalog/bruschatka-cubes-1.jpg',
-    '/catalog/bruschatka-cubes-2.jpg',
-    '/catalog/bruschatka-cut-1.jpg',
-    '/catalog/bruschatka-laid-2.jpg',
+    '/catalog/bruschatka-2.jpg',
+    '/catalog/bruschatka-3.jpg',
   ],
   'granitnye-plity': [
-    '/catalog/plita-polirovannaya-2.jpg',
-    '/catalog/plita-polirovannaya-3.jpg',
-    '/catalog/plita-polirovannaya-4.jpg',
-    '/catalog/plita-polirovannaya-5.jpg',
-    '/catalog/plita-polirovannaya-6.jpg',
-    '/catalog/plita-polirovannaya-7.jpg',
     '/catalog/plita-termo-1.jpg',
+    '/catalog/plita-termo-2.jpg',
+    '/catalog/plita-termo-3.jpg',
+    '/catalog/plita-termo-4.jpg',
+    '/catalog/plita-termo-5.jpg',
+    '/catalog/plita-termo-6.jpg',
   ],
 };
 
