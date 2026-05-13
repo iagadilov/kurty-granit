@@ -106,11 +106,9 @@ export const products: Product[] = [
     name: 'Плита термообработанная 20 мм',
     images: [
       '/catalog/plita-termo-1.jpg',
-      '/catalog/plita-termo-2.jpg',
-      '/catalog/plita-termo-3.jpg',
-      '/catalog/plita-termo-4.jpg',
-      '/catalog/plita-termo-5.jpg',
-      '/catalog/plita-termo-6.jpg',
+      'https://kurty.kz/assets/cache_image/media/1-termoobrabotannyy-granit_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/2-termoobrabotannyy-granit_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/5-termoobrabotannyy-granit_2000x2000_584.jpg',
     ],
     description: 'Термообработанная гранитная плита толщиной 20 мм. Матовая шероховатая поверхность после обжига.',
     specs: [
@@ -127,9 +125,9 @@ export const products: Product[] = [
     categorySlug: 'granitnye-plity',
     name: 'Плита термообработанная 30 мм',
     images: [
-      '/catalog/plita-termo-2.jpg',
-      '/catalog/plita-termo-3.jpg',
-      '/catalog/plita-termo-4.jpg',
+      '/catalog/plita-termo-1.jpg',
+      'https://kurty.kz/assets/cache_image/media/cat/IMG_3258_2000x2000_584.jpg',
+      'https://kurty.kz/assets/cache_image/media/2-termoobrabotannyy-granit_2000x2000_584.jpg',
     ],
     description: 'Термообработанная гранитная плита толщиной 30 мм. Оптимальная толщина для мощения.',
     specs: [
@@ -839,13 +837,13 @@ const hardcodedSizes: Record<string, string[]> = {
 const hardcodedFinishes: Record<string, { name: string; image: string }[]> = {
   // Заготовки: только Термообработанная и Полированная (без шлифованной/пиленой)
   'zagotovki': [
-    { name: 'Термообработанная', image: '/catalog/zagotovka-2.jpg' },
+    { name: 'Термообработанная', image: '/catalog/plita-termo-1.jpg' },
     { name: 'Полированная', image: '/catalog/plita-polirovannaya-close.jpg' },
   ],
   // Брусчатка: фаска / без фаски (вместо «Пиленый»)
   'granitnaja-bruschatka': [
-    { name: 'С фаской', image: '/catalog/bruschatka-1.jpg' },
-    { name: 'Без фаски', image: '/catalog/bruschatka-2.jpg' },
+    { name: 'С фаской', image: '/catalog/bruschatka-cubes-1.jpg' },
+    { name: 'Без фаски', image: '/catalog/bruschatka-cut-1.jpg' },
   ],
 };
 
