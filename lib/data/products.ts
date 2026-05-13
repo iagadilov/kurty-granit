@@ -16,6 +16,7 @@ export const products: Product[] = [
     categorySlug: 'granitnye-plity',
     name: 'Плита полированная 300×300×20',
     images: [
+      '/catalog/plita-polirovannaya-close.jpg',
       'https://kurty.kz/assets/cache_image/media/cat/2016-12-10%2022.12.46%20(1)_2000x2000_584.jpg',
       'https://kurty.kz/assets/cache_image/media/cat/2016-12-10%2022.11.17%20(1)_2000x2000_584.jpg',
       'https://kurty.kz/assets/cache_image/media/cat/2016-12-10%2022.16.16%20(1)_2000x2000_584.jpg',
@@ -37,6 +38,7 @@ export const products: Product[] = [
     categorySlug: 'granitnye-plity',
     name: 'Плита полированная 300×600×20',
     images: [
+      '/catalog/plita-polirovannaya-close.jpg',
       'https://kurty.kz/assets/cache_image/media/1-polirovannye-i-plity-bolshih-razmerov_2000x2000_584.jpg',
       'https://kurty.kz/assets/cache_image/media/2-polirovannye-i-plity-bolshih-razmerov_2000x2000_584.jpg',
       'https://kurty.kz/assets/cache_image/media/3-polirovannye-i-plity-bolshih-razmerov_2000x2000_584.jpg',
@@ -59,6 +61,7 @@ export const products: Product[] = [
     categorySlug: 'granitnye-plity',
     name: 'Плита полированная 600×600×20',
     images: [
+      '/catalog/plita-polirovannaya-close.jpg',
       'https://kurty.kz/assets/cache_image/media/cat/polirovka-50-mm-2_2000x2000_584.jpg',
       'https://kurty.kz/assets/cache_image/media/1-polirovannye-i-plity-bolshih-razmerov_2000x2000_584.jpg',
       'https://kurty.kz/assets/cache_image/media/2-polirovannye-i-plity-bolshih-razmerov_2000x2000_584.jpg',
@@ -79,6 +82,7 @@ export const products: Product[] = [
     categorySlug: 'granitnye-plity',
     name: 'Плита полированная 1000×600×20',
     images: [
+      '/catalog/plita-polirovannaya-close.jpg',
       'https://kurty.kz/assets/cache_image/media/1-polirovannye-i-plity-bolshih-razmerov_2000x2000_584.jpg',
       'https://kurty.kz/assets/cache_image/media/2-polirovannye-i-plity-bolshih-razmerov_2000x2000_584.jpg',
       'https://kurty.kz/assets/cache_image/media/3-polirovannye-i-plity-bolshih-razmerov_2000x2000_584.jpg',
@@ -101,11 +105,12 @@ export const products: Product[] = [
     categorySlug: 'granitnye-plity',
     name: 'Плита термообработанная 20 мм',
     images: [
-      'https://kurty.kz/assets/cache_image/media/1-termoobrabotannyy-granit_2000x2000_584.jpg',
-      'https://kurty.kz/assets/cache_image/media/2-termoobrabotannyy-granit_2000x2000_584.jpg',
-      'https://kurty.kz/assets/cache_image/media/5-termoobrabotannyy-granit_2000x2000_584.jpg',
-      'https://kurty.kz/assets/cache_image/media/6-termoobrabotannyy-granit_2000x2000_584.jpg',
-      'https://kurty.kz/assets/cache_image/media/7-termoobrabotannyy-granit_2000x2000_584.jpg',
+      '/catalog/plita-termo-1.jpg',
+      '/catalog/plita-termo-2.jpg',
+      '/catalog/plita-termo-3.jpg',
+      '/catalog/plita-termo-4.jpg',
+      '/catalog/plita-termo-5.jpg',
+      '/catalog/plita-termo-6.jpg',
     ],
     description: 'Термообработанная гранитная плита толщиной 20 мм. Матовая шероховатая поверхность после обжига.',
     specs: [
@@ -122,9 +127,9 @@ export const products: Product[] = [
     categorySlug: 'granitnye-plity',
     name: 'Плита термообработанная 30 мм',
     images: [
-      'https://kurty.kz/assets/cache_image/media/cat/IMG_3258_2000x2000_584.jpg',
-      'https://kurty.kz/assets/cache_image/media/2-termoobrabotannyy-granit_2000x2000_584.jpg',
-      'https://kurty.kz/assets/cache_image/media/5-termoobrabotannyy-granit_2000x2000_584.jpg',
+      '/catalog/plita-termo-2.jpg',
+      '/catalog/plita-termo-3.jpg',
+      '/catalog/plita-termo-4.jpg',
     ],
     description: 'Термообработанная гранитная плита толщиной 30 мм. Оптимальная толщина для мощения.',
     specs: [
@@ -834,13 +839,13 @@ const hardcodedSizes: Record<string, string[]> = {
 const hardcodedFinishes: Record<string, { name: string; image: string }[]> = {
   // Заготовки: только Термообработанная и Полированная (без шлифованной/пиленой)
   'zagotovki': [
-    { name: 'Термообработанная', image: 'https://kurty.kz/assets/cache_image/media/catalog/products/zagotovki/polosa-polirovannaya_1_2000x2000_584.jpg' },
-    { name: 'Полированная', image: 'https://kurty.kz/assets/cache_image/media/catalog/products/zagotovki/polosa-polirovannaya-600_2000x2000_584.jpg' },
+    { name: 'Термообработанная', image: '/catalog/zagotovka-2.jpg' },
+    { name: 'Полированная', image: '/catalog/plita-polirovannaya-close.jpg' },
   ],
   // Брусчатка: фаска / без фаски (вместо «Пиленый»)
   'granitnaja-bruschatka': [
-    { name: 'С фаской', image: '/catalog/bruschatka-termo.jpg' },
-    { name: 'Без фаски', image: '/catalog/bruschatka-termo.jpg' },
+    { name: 'С фаской', image: '/catalog/bruschatka-1.jpg' },
+    { name: 'Без фаски', image: '/catalog/bruschatka-2.jpg' },
   ],
 };
 

@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 import type { Metadata } from 'next';
-import { categories, getCategoryBySlug } from '@/lib/data/categories';
+import { categories, getCategoryBySlug, categoryGalleries } from '@/lib/data/categories';
 import { getCategoryVariants } from '@/lib/data/products';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 
@@ -33,6 +33,7 @@ export default async function CategoryPage({ params }: PageProps) {
   }
 
   const variants = getCategoryVariants(categorySlug);
+  const gallery = categoryGalleries[categorySlug] ?? [];
 
   return (
     <main className="min-h-screen bg-stone-950 pb-20">
@@ -118,6 +119,25 @@ export default async function CategoryPage({ params }: PageProps) {
               >
                 Запросить цену
               </Link>
+            </div>
+          </section>
+        )}
+
+        {gallery.length > 0 && (
+          <section className="mb-10">
+            <h2 className="mb-5 text-xl font-bold text-stone-50">Фото с производства</h2>
+            <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+              {gallery.map((src) => (
+                <div key={src} className="relative aspect-[4/3] overflow-hidden rounded-md border border-stone-700">
+                  <Image
+                    src={src}
+                    alt={category.name}
+                    fill
+                    sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+                    className="object-cover"
+                  />
+                </div>
+              ))}
             </div>
           </section>
         )}
