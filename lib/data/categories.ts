@@ -50,6 +50,7 @@ export const categoryGalleries: Record<string, string[]> = {
     '/catalog/bordyur-2.jpg',
     '/catalog/bordyur-3.jpg',
     '/catalog/bordyur-4.jpg',
+    '/catalog/bordyur-5.jpg',
   ],
   'bloki': [
     '/catalog/blok-2.jpg',
@@ -60,11 +61,10 @@ export const categoryGalleries: Record<string, string[]> = {
     '/catalog/zagotovka-3.jpg',
     '/catalog/zagotovka-4.jpg',
   ],
-  'granitnaja-bruschatka': [
-    '/catalog/bruschatka-2.jpg',
-    '/catalog/bruschatka-3.jpg',
-  ],
+  // Брусчатка: только cover-фото; других уникальных фото брусчатки нет
+  'granitnaja-bruschatka': [],
   'granitnye-plity': [
+    '/catalog/plita-polirovannaya-2.jpg',
     '/catalog/plita-termo-1.jpg',
     '/catalog/plita-termo-2.jpg',
     '/catalog/plita-termo-3.jpg',
