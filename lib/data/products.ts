@@ -810,14 +810,14 @@ const hardcodedSizes: Record<string, string[]> = {
 const hardcodedFinishes: Record<string, { name: string; image: string }[]> = {
   // Заготовки: у этой категории нет вариантов обработки — блок скрыт
   'zagotovki': [],
-  // Брусчатка: фаска / без фаски (вместо «Пиленый»)
+  // Брусчатка: только одна обработка — термообработанная
   'granitnaja-bruschatka': [
-    { name: 'С фаской', image: '/catalog/bruschatka-cover.jpg' },
-    { name: 'Без фаски', image: '/catalog/bruschatka-2.jpg' },
+    { name: 'Термообработанная', image: '/catalog/bruschatka-cover.jpg' },
   ],
-  // Бордюры: тип «Пиленый» — единственная стандартная обработка
+  // Бордюры: с фаской / без фаски
   'granitnye-bordjury': [
-    { name: 'Пиленый', image: '/catalog/bordyur-1.jpg' },
+    { name: 'С фаской', image: '/catalog/bordyur-1.jpg' },
+    { name: 'Без фаски', image: '/catalog/bordyur-3.jpg' },
   ],
   // Блоки: единственный тип
   'bloki': [
