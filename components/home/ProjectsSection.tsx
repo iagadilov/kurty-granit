@@ -35,7 +35,7 @@ export default function ProjectsSection() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-12">
           <SectionTitle
-            title="Куртинский гранит в знаковых проектах Казахстана и СНГ"
+            title="Наша продукция в знаковых проектах Казахстана и СНГ"
             subtitle="Площади, скверы, жилые комплексы, набережные, мемориалы"
           />
         </div>

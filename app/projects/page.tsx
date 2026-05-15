@@ -4,9 +4,9 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import SectionTitle from '@/components/ui/SectionTitle';
 
 export const metadata: Metadata = {
-  title: 'Куртинский гранит в знаковых проектах Казахстана и СНГ',
+  title: 'Наша продукция в знаковых проектах Казахстана и СНГ',
   description:
-    'Куртинский гранит в знаковых проектах Казахстана и СНГ. Площади, скверы, жилые комплексы, набережные, мемориалы.',
+    'Наша продукция в знаковых проектах Казахстана и СНГ. Площади, скверы, жилые комплексы, набережные, мемориалы.',
 };
 
 const projects = [
@@ -40,7 +40,7 @@ export default function ProjectsPage() {
 
         <div className="mt-8 mb-12">
           <SectionTitle
-            title="Куртинский гранит в знаковых проектах Казахстана и СНГ"
+            title="Наша продукция в знаковых проектах Казахстана и СНГ"
             subtitle="Площади, скверы, жилые комплексы, набережные, мемориалы"
           />
         </div>
